@@ -1,0 +1,20 @@
+<div *ngIf="hero">
+  <div class="container">
+    <div>
+      <h2>{{hero.name | uppercase}} Details</h2>
+      <p><span>id: </span>{{hero.id}}</p>
+      <p><span>name: </span>{{hero.name}}</p>
+      <p><span>superpower: </span>{{hero.superpower}}</p>
+      <p><span>age: </span>{{hero.age}}</p>
+      <p><span>weakness: </span>{{hero.weakness}}</p>
+      <p><span>ennemy: </span>{{hero.ennemy}}</p>
+    </div>
+    <div>
+      <img src="https://i.pinimg.com/originals/2b/0f/9a/2b0f9a46092f81089f87d9e959195d0d.jpg" alt="jolyne kujo"/>
+    </div>
+  </div>
+
+
+  <button (click)="goBack()">go back</button>
+  <!--<button (click)="save()">save</button>-->
+</div>
