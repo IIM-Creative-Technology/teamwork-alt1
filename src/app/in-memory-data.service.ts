@@ -56,20 +56,14 @@ export class InMemoryDataService implements InMemoryDbService {
         name: 'Alexis Luthor',
         slug: 'alexis-luthor',
         superpower: 'Genius Level Intellect',
-        age: 29, 
+        age: 29,
         weakness: 'Kryptonite',
         enemy: 'Superman'
 
       },
       {
-        id: 11,
-        name: 'Poison July',
-        slug: 'poison-july',
-        superpower: 'Poison'
-      },
-      {
 
-        id: 10,
+        id: 20,
         name: 'Goku',
         slug: 'goku',
         superpower: 'Saiyan',
