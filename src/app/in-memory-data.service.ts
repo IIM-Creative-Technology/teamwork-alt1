@@ -16,6 +16,15 @@ export class InMemoryDataService implements InMemoryDbService {
         age: 35,
         weakness: 'dos',
         ennemy: 'méchants'
+      },
+      {
+        id: 2014,
+        name: 'Alexis Luthor',
+        slug: 'alexis-luthor',
+        superpower: 'Genius Level Intellect',
+        age: 29,
+        weakness: 'Kryptonite',
+        ennemy: 'Superman'
       }
     ];
     return {heroes};
