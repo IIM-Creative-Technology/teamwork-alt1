@@ -2,37 +2,19 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
-
 import { AppRoutingModule } from './app-routing.module';
-
 import { AppComponent } from './app.component';
-
-
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
-
-
-
-
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { MessagesComponent } from './messages/messages.component';
-
 import { CatwomanEoleComponent } from './catwoman-eole/catwoman-eole.component';
-
 import { GonComponent } from './Gon/gon.component';
-
 import { ThorComponent } from './thor/thor.component';
-
 import { AlexisLuthorComponent } from './alexis-luthor/alexis-luthor.component';
-
-
-
-
 import { GokuComponent } from './goku/goku.component';
-
 import { PhoenixWrightComponent } from './phoenix-wright/phoenix-wright.component';
 import { JotaroKujoComponent } from './jotaro-kujo/jotaro-kujo.component';
 import { StitchComponent } from './stitch/stitch.component';
@@ -43,7 +25,7 @@ import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
 import { KrilinComponent } from './krilin/krilin.component';
 import { ZoroComponent } from "./zoro/zoro.component";
 import { MulanFidelineComponent } from './mulan-fideline/mulan-fideline.component';
-
+import { BatmanComponent } from './batman/batman.component';
 
 @NgModule({
   imports: [
@@ -80,7 +62,7 @@ import { MulanFidelineComponent } from './mulan-fideline/mulan-fideline.componen
     CatwomanEoleComponent,
     GutsvidalComponent,
     MulanFidelineComponent,
-
+    BatmanComponent
 
   ],
   bootstrap: [AppComponent]
