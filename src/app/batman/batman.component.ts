@@ -11,7 +11,7 @@ import { HeroService } from '../hero.service';
   styleUrls: [ './batman.component.css' ]
 })
 export class BatmanComponent implements OnInit {
-  id: number = 11;
+  id: number = 98;
   hero: Hero | undefined;
 
   constructor(
