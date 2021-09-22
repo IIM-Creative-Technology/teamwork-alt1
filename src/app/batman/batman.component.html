@@ -1,0 +1,36 @@
+<div *ngIf="hero" class="hero-container">
+    <h2>{{hero.name | uppercase}} Details</h2>
+    <table>
+        <tr>
+            <th>id:</th>
+            <td>{{hero.id}}</td>
+        </tr>
+        <tr>
+            <th>name:</th>
+            <td>{{hero.name}}</td>
+        </tr>
+        <tr>
+            <th>age:</th>
+            <td>{{hero.age}}</td>
+        </tr>
+        <tr>
+            <th>superpower:</th>
+            <td>{{hero.superpower}}</td>
+        </tr>
+        <tr>
+            <th>weakness:</th>
+            <td>{{hero.weakness}}</td>
+        </tr>
+        <tr>
+            <th>enemy:</th>
+            <td>{{hero.enemy}}</td>
+        </tr>
+    </table>
+    <div>
+        <p class="text-bull">Je suis Batman  !</p>
+        <img src="https://cdn.pixabay.com/photo/2020/07/06/17/51/batman-5377804_640.png" alt="batman"/>
+    </div>
+
+    <button (click)="goBack()">go back</button>
+    <!--<button (click)="save()">save</button>-->
+</div>
