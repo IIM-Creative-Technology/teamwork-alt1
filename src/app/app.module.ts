@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 
+
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
 import { CassianComponent } from './cassian-alexis/cassian-alexis.component';
 import { GonComponent } from './Gon/gon.component';
@@ -24,12 +25,17 @@ import { StitchComponent } from './stitch/stitch.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { MessagesComponent } from './messages/messages.component';
+
+
+import { CatwomanEoleComponent } from './catwoman-eole/catwoman-eole.component';
+
 import { FivesComponent } from './fives/fives.component';
 import { GutsvidalComponent } from './Guts-vidal/Guts-vidal.component';
 import { SanjiComponent } from './sanji/sanji.component';
 import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
 import { KrilinComponent } from './krilin/krilin.component';
 import { ZoroComponent } from "./zoro/zoro.component";
+import { MulanFidelineComponent } from './mulan-fideline/mulan-fideline.component';
 
 
 @NgModule({
@@ -68,7 +74,11 @@ import { ZoroComponent } from "./zoro/zoro.component";
     HeroSearchComponent,
     ZoroComponent,
     FivesComponent,
-    GutsvidalComponent
+    GutsvidalComponent,
+    CatwomanEoleComponent,
+    MulanFidelineComponent,
+
+
   ],
   bootstrap: [AppComponent]
 })

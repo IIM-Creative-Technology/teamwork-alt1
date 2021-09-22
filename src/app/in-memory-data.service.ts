@@ -25,6 +25,7 @@ export class InMemoryDataService implements InMemoryDbService {
         enemy: 'Psykers'
       },
       {
+
         id: 9,
         name: 'thor',
         slug: 'thor',
@@ -32,15 +33,6 @@ export class InMemoryDataService implements InMemoryDbService {
         age: 35,
         weakness: 'dos',
         enemy: 'méchants'
-      },
-      {
-        id: 2014,
-        name: 'Alexis Luthor',
-        slug: 'alexis-luthor',
-        superpower: 'Genius Level Intellect',
-        age: 29,
-        weakness: 'Kryptonite',
-        enemy: 'Superman'
       },
       {
 
@@ -134,6 +126,26 @@ export class InMemoryDataService implements InMemoryDbService {
         weakness: "order 66"
       },
       {
+        id: 21,
+        age: 81,
+        enemy: "Alberto Falcone",
+        name: "Catwoman",
+        slug: "catwoman-eole",
+        superpower: "agile",
+        weakness: "stereotypical weaknesses of cats",
+
+      },
+      {
+        id: 2014,
+        name: 'Alexis Luthor',
+        slug: 'alexis-luthor',
+        superpower: 'Genius Level Intellect',
+        age: 29,
+        weakness: 'Kryptonite',
+        enemy: 'Superman'
+      },
+      {
+
         id: 40,
         age: 24,
         enemy: "Griffith",
@@ -141,6 +153,15 @@ export class InMemoryDataService implements InMemoryDbService {
         slug: "guts",
         superpower: "Force Surhumaine",
         weakness: "God Hand"
+      },
+      {
+        id: 44,
+        name: 'Gon',
+        slug: 'gon',
+        superpower: 'Nen renforcement',
+        enemy:"Hisoka",
+        age: 28,
+        weakness:"trop fort"
       },
       {
         id: 4,
