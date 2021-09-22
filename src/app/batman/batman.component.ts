@@ -7,13 +7,12 @@ import { HeroService } from '../hero.service';
 
 @Component({
   selector: 'app-hero-detail',
-  templateUrl: './fives.component.html',
-  styleUrls: [ './fives.component.css' ]
+  templateUrl: './batman.component.html',
+  styleUrls: [ './batman.component.css' ]
 })
-export class FivesComponent implements OnInit {
-  id: number = 55555;
+export class BatmanComponent implements OnInit {
+  id: number = 11;
   hero: Hero | undefined;
-
 
   constructor(
     private route: ActivatedRoute,
