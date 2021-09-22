@@ -9,34 +9,35 @@ import { InMemoryDataService } from './in-memory-data.service';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
+
+
+import { GonComponent } from './Gon/gon.component';
+
 import { ThorComponent } from './thor/thor.component';
-import { PoisonJulyComponent } from './poison-july/poison-july.component';
-<<<<<<< HEAD
-<<<<<<< HEAD
-import { AbdelComponent } from './abdel/abdel.component';
-=======
+
+import { AlexisLuthorComponent } from './alexis-luthor/alexis-luthor.component';
+
+
+
+
 import { GokuComponent } from './goku/goku.component';
->>>>>>> 9ab7e10b90c9d4ccdaff9f2b05fcd5e3f974fe87
+
 import { PhoenixWrightComponent } from './phoenix-wright/phoenix-wright.component';
 import { JotaroKujoComponent } from './jotaro-kujo/jotaro-kujo.component';
 import { StitchComponent } from './stitch/stitch.component';
-import { HeroesComponent } from './heroes/heroes.component';
-import { HeroSearchComponent } from './hero-search/hero-search.component';
-import { MessagesComponent } from './messages/messages.component';
 import { FivesComponent } from './fives/fives.component';
-import { BatmanComponent } from './batman/batman.component';
 import { GutsvidalComponent } from './Guts-vidal/Guts-vidal.component';
 import { SanjiComponent } from './sanji/sanji.component';
 import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
 import { KrilinComponent } from './krilin/krilin.component';
 import { ZoroComponent } from "./zoro/zoro.component";
 
-=======
+
 import { MulanFidelineComponent } from './mulan-fideline/mulan-fideline.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { MessagesComponent } from './messages/messages.component';
->>>>>>> gaara
+
 
 @NgModule({
   imports: [
@@ -55,14 +56,13 @@ import { MessagesComponent } from './messages/messages.component';
   declarations: [
     AppComponent,
     HeroesComponent,
+
+    GonComponent,
+
     ThorComponent,
-    PoisonJulyComponent,
-<<<<<<< HEAD
-<<<<<<< HEAD
-    AbdelComponent,
-=======
+
+    AlexisLuthorComponent,
     GokuComponent,
->>>>>>> 9ab7e10b90c9d4ccdaff9f2b05fcd5e3f974fe87
     JolyneKujoComponent,
     PhoenixWrightComponent,
     MessagesComponent,
@@ -73,16 +73,12 @@ import { MessagesComponent } from './messages/messages.component';
     StitchComponent,
     MessagesComponent,
     HeroSearchComponent,
-    BatmanComponent,
     ZoroComponent,
     FivesComponent,
-    BatmanComponent,
-    GutsvidalComponent
-=======
+    GutsvidalComponent,
     MulanFidelineComponent,
     MessagesComponent,
     HeroSearchComponent,
->>>>>>> gaara
   ],
   bootstrap: [AppComponent]
 })
