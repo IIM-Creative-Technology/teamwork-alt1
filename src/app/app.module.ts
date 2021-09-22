@@ -9,8 +9,14 @@ import { InMemoryDataService } from './in-memory-data.service';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
+
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
 import { CassianComponent } from './cassian-alexis/cassian-alexis.component';
+import { GonComponent } from './Gon/gon.component';
+
+import { ThorComponent } from './thor/thor.component';
+import { AlexisLuthorComponent } from './alexis-luthor/alexis-luthor.component';
+
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { MessagesComponent } from './messages/messages.component';
@@ -32,8 +38,14 @@ import { MessagesComponent } from './messages/messages.component';
   declarations: [
     AppComponent,
     HeroesComponent,
+
     PoisonJulyComponent,
     CassianComponent,
+    GonComponent,
+
+    ThorComponent,
+    AlexisLuthorComponent,
+
     MessagesComponent,
     HeroSearchComponent
   ],

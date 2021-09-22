@@ -4,6 +4,6 @@ export interface Hero {
   slug: string;
   superpower: string;
   age: number;
-  weakness:string;
+  weakness: string;
   ennemy: string;
 }
