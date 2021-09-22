@@ -6,9 +6,11 @@ import { HeroesComponent } from './heroes/heroes.component';
 
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
 import { MikeyComponent} from './mikey-jeanpierre/mikey-jeanpierre.component';
+import { CassianComponent } from './cassian-alexis/cassian-alexis.component';
 import { GonComponent } from './Gon/gon.component';
 import { ThorComponent } from './thor/thor.component';
 import { AlexisLuthorComponent } from './alexis-luthor/alexis-luthor.component';
+
 import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
 import { PhoenixWrightComponent } from './phoenix-wright/phoenix-wright.component';
 import { JotaroKujoComponent } from './jotaro-kujo/jotaro-kujo.component';
@@ -27,6 +29,7 @@ const routes: Routes = [
   { path: 'heroes', component: HeroesComponent },
   { path: 'detail/poison-july', component: PoisonJulyComponent },
   { path: 'detail/mikey-tokyorevengers', component: MikeyComponent },
+  { path: 'detail/cassian-alexis', component: CassianComponent },
   { path: 'detail/gon', component: GonComponent},
   { path: 'detail/thor', component: ThorComponent },
   { path: 'detail/alexis-luthor', component: AlexisLuthorComponent },
@@ -42,9 +45,6 @@ const routes: Routes = [
 
   { path: "detail/catwoman-eole", component:CatwomanEoleComponent },
 
-  { path: 'detail/gon', component: GonComponent},
-  { path: 'detail/thor', component: ThorComponent },
-  { path: 'detail/alexis-luthor', component: AlexisLuthorComponent },
 
   { path: "detail/guts", component:GutsvidalComponent },
   { path: 'detail/gaara-fideline', component: MulanFidelineComponent },
