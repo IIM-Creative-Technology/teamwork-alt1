@@ -15,16 +15,25 @@ export class InMemoryDataService implements InMemoryDbService {
         superpower: 'Poison',
         weakness: "Fire",
         age: 20,
-        ennemy: "Batman"
+        enemy: "Batman"
       },
       {
         id: 98,
         age: 30,
-        ennemy: "Joker",
-        name: "Batman", 
+        enemy: "Joker",
+        name: "Batman",
         slug: "batman",
         superpower: "Richesse",
         weakness: "Humain"
+      },
+      {
+        id: 2020,
+        age: 19,
+        enemy: 'Everyone',
+        name: 'Roronoa Zoro',
+        slug: 'roronoa-zoro',
+        superpower: 'Swordsman',
+        weakness: 'No weakness'
       }
     ];
     return {heroes};
