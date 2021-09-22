@@ -1,0 +1,19 @@
+<div *ngIf="hero" class="body">
+  <!-- <h2>{{hero.name | uppercase}}</h2> -->
+  <div class="begin">
+    <h2>{{hero.id}}</h2>
+    <h2>{{hero.name}}</h2>
+  </div>
+
+  <div class="enemy">{{hero.enemy}}</div>
+  <div id="superpower">{{hero.superpower}}</div>
+  <div class="tenue">
+     <!-- <img src="https://pm1.narvii.com/6855/8c706760d501e3f16c8ca716311bc39e3a65d55cv2_hq.jpg" alt="tsuyu asui"/> -->
+     <img src="https://pm1.narvii.com/7292/6999162c95ca43af32e6af59410fa4157ba10e98r1-192-499v2_hq.jpg" alt="tsuyu asui"/>
+     <img src="https://pm1.narvii.com/7292/bcdb6327eb449c2374327ac0b57ea6a9bda76780r1-224-499v2_hq.jpg" alt="tsuyu asui"/>
+  </div>
+
+
+  <button (click)="goBack()">go back</button>
+  <!--<button (click)="save()">save</button>-->
+</div>
