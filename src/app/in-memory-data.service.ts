@@ -21,7 +21,7 @@ export class InMemoryDataService implements InMemoryDbService {
         superpower: 'Law',
         age: '27',
         weakness: 'Miles Edgeworth',
-        ennemy: 'Criminals',
+        enemy: 'Criminals',
       },
     ];
     return {heroes};
