@@ -10,9 +10,11 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
+import { StitchComponent } from './stitch/stitch.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { MessagesComponent } from './messages/messages.component';
+import { FivesComponent } from './fives/fives.component';
 import { BatmanComponent } from './batman/batman.component';
 import {GantaComponent} from './ganta/ganta.component';
 
@@ -34,10 +36,13 @@ import {GantaComponent} from './ganta/ganta.component';
     AppComponent,
     HeroesComponent,
     PoisonJulyComponent,
+    StitchComponent,
     MessagesComponent,
     HeroSearchComponent,
     BatmanComponent,
-    GantaComponent
+    GantaComponent,
+    FivesComponent,
+    BatmanComponent
   ],
   bootstrap: [ AppComponent ]
 })

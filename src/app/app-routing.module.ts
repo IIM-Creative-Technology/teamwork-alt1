@@ -4,7 +4,12 @@ import { BatmanComponent } from './batman/batman.component';
 
 import { HeroesComponent } from './heroes/heroes.component';
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
+
 import {GantaComponent} from './ganta/ganta.component';
+
+import { StitchComponent } from './stitch/stitch.component';
+import { FivesComponent } from './fives/fives.component';
+
 
 
 const routes: Routes = [
@@ -12,7 +17,10 @@ const routes: Routes = [
   { path: 'heroes', component: HeroesComponent },
   { path: 'detail/poison-july', component: PoisonJulyComponent },
   { path: 'detail/batman', component: BatmanComponent },
-  { path: 'detail/ganta', component: GantaComponent }
+  { path: 'detail/ganta', component: GantaComponent },
+  { path: 'detail/stitch', component: StitchComponent },
+  { path: 'detail/fives', component: FivesComponent },
+  { path: 'detail/batman', component: BatmanComponent }
 ];
 
 @NgModule({
