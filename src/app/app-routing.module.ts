@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: 'heroes', component: HeroesComponent },
 
   { path: 'detail/poison-july', component: PoisonJulyComponent },
-  { path: 'detail/gon', component: GonComponent}
+  { path: 'detail/gon', component: GonComponent},
   { path: 'detail/thor', component: ThorComponent },
   { path: 'detail/alexis-luthor', component: AlexisLuthorComponent }
 
