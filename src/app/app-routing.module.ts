@@ -8,7 +8,7 @@ import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
 import { PhoenixWrightComponent } from './phoenix-wright/phoenix-wright.component';
 import { JotaroKujoComponent } from './jotaro-kujo/jotaro-kujo.component';
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
-import { AbdelComponent } from './abdel/abdel.component';
+import { GokuComponent } from './goku/goku.component';
 
 import { SanjiComponent } from './sanji/sanji.component';
 
@@ -22,8 +22,8 @@ const routes: Routes = [
   { path: '', redirectTo: '/heroes', pathMatch: 'full' },
   { path: 'heroes', component: HeroesComponent },
   { path: 'detail/poison-july', component: PoisonJulyComponent },
-  { path: 'detail/abdel', component: AbdelComponent },
-  { path: "detail/sanji", component:SanjiComponent },
+  { path: 'detail/goku', component: GokuComponent },
+  { path: "detail/sanji", component: SanjiComponent },
   { path: 'detail/jolyne-kujo', component: JolyneKujoComponent },
   { path: 'detail/batman', component: BatmanComponent },
   { path: 'detail/krilin', component: KrilinComponent },
@@ -33,8 +33,8 @@ const routes: Routes = [
   { path: 'detail/jotaro-kujo', component: JotaroKujoComponent },
   { path: 'detail/stitch', component: StitchComponent },
   { path: 'detail/fives', component: FivesComponent },
-  { path: "detail/batman", component:BatmanComponent },
-  { path: "detail/guts", component:GutsvidalComponent }
+  { path: "detail/batman", component: BatmanComponent },
+  { path: "detail/guts", component: GutsvidalComponent }
 ];
 
 @NgModule({

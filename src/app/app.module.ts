@@ -10,7 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
-import { AbdelComponent } from './abdel/abdel.component';
+import { GokuComponent } from './goku/goku.component';
 import { PhoenixWrightComponent } from './phoenix-wright/phoenix-wright.component';
 import { JotaroKujoComponent } from './jotaro-kujo/jotaro-kujo.component';
 import { StitchComponent } from './stitch/stitch.component';
@@ -24,7 +24,7 @@ import { GutsvidalComponent } from './Guts-vidal/Guts-vidal.component';
 import { SanjiComponent } from './sanji/sanji.component';
 import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
 import { KrilinComponent } from './krilin/krilin.component';
-import {ZoroComponent} from "./zoro/zoro.component";
+import { ZoroComponent } from "./zoro/zoro.component";
 
 
 @NgModule({
@@ -45,7 +45,7 @@ import {ZoroComponent} from "./zoro/zoro.component";
     AppComponent,
     HeroesComponent,
     PoisonJulyComponent,
-    AbdelComponent,
+    GokuComponent,
     JolyneKujoComponent,
     PhoenixWrightComponent,
     MessagesComponent,
@@ -64,4 +64,4 @@ import {ZoroComponent} from "./zoro/zoro.component";
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }
