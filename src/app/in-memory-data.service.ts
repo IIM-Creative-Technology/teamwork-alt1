@@ -15,7 +15,25 @@ export class InMemoryDataService implements InMemoryDbService {
         superpower: 'Poison',
         weakness: 'Fire',
         age: 20,
-        enemy: 'Batman',
+        enemy: 'Batman'
+      },
+      {
+        id: 6,
+        name: 'Phoenix Wright',
+        slug: 'phoenix-wright',
+        superpower: 'Law',
+        age: 27,
+        weakness: 'Miles Edgeworth',
+        enemy: 'Criminals',
+      },
+      {
+        id: 1,
+        name: 'Jotaro Kujo',
+        slug: 'jotaro-kujo',
+        superpower: 'Star Platinium',
+        age: 17,
+        weakness: 'Distance',
+        enemy: 'DIO',
       },
       {
         id: 98,
@@ -37,6 +55,48 @@ export class InMemoryDataService implements InMemoryDbService {
       },
       {
         id: 626,
+        enemy: "Joker",
+        name: "Batman",
+        slug: "batman",
+        superpower: "Richesse",
+        weakness: "Humain"
+      },
+      {
+        id: 17,
+        age: 21,
+        enemy: "Kaido",
+        name: "Sanji",
+        slug: "sanji",
+        superpower: "Techniques de la jambe noire",
+        weakness: "Les Femmes"
+      },
+      {
+        id: 16,
+        age: 19,
+        name: 'Jolyne Kujo',
+        slug: 'jolyne-kujo',
+        superpower: 'Stand Stone Free',
+      },
+      {
+        id: 69,
+        age: 18,
+        enemy: 'Boo',
+        name: 'Krilin',
+        slug: 'krilin',
+        superpower: 'Super Saiyan',
+        weakness: 'Chauve'
+      },
+      {
+        id: 2020,
+        age: 19,
+        enemy: 'Everyone',
+        name: 'Roronoa Zoro',
+        slug: 'roronoa-zoro',
+        superpower: 'Swordsman',
+        weakness: 'No weakness'
+      },
+      {
+        id:626,
         age: 20,
         enemy: 'Bonnie',
         name: 'Stitch',
@@ -52,7 +112,10 @@ export class InMemoryDataService implements InMemoryDbService {
         slug: 'fives',
         superpower: 'Sharp shooter',
         weakness: 'order 66'
-      }
+      },
+
+
+
     ];
     return {heroes};
   }
