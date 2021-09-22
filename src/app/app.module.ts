@@ -40,15 +40,12 @@ import { MessagesComponent } from './messages/messages.component';
     HeroesComponent,
 
     PoisonJulyComponent,
-<<<<<<< HEAD
     JessicaJonesComponent,
-=======
     GonComponent,
 
     ThorComponent,
     AlexisLuthorComponent,
 
->>>>>>> origin
     MessagesComponent,
     HeroSearchComponent
   ],
