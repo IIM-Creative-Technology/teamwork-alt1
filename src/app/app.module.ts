@@ -14,6 +14,7 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { MessagesComponent } from './messages/messages.component';
 import { BatmanComponent } from './batman/batman.component';
+import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
 
 @NgModule({
   imports: [
@@ -33,6 +34,7 @@ import { BatmanComponent } from './batman/batman.component';
     AppComponent,
     HeroesComponent,
     PoisonJulyComponent,
+    JolyneKujoComponent,
     MessagesComponent,
     HeroSearchComponent,
     BatmanComponent
