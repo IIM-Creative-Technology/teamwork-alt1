@@ -23,7 +23,7 @@ export class InMemoryDataService implements InMemoryDbService {
         superpower: 'Superhuman strength',
         age: 39,
         weakness: 'Post-traumatic stress disorder',
-        enemy: 'Kilgrave'
+        ennemy: 'Kilgrave'
       },
       {
         id: 44,
