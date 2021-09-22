@@ -9,16 +9,9 @@ import { InMemoryDataService } from './in-memory-data.service';
 import { AppRoutingModule } from './app-routing.module';
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
 import { AppComponent } from './app.component';
-
-
-
-
-
-
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { MessagesComponent } from './messages/messages.component';
-
 import { CatwomanEoleComponent } from './catwoman-eole/catwoman-eole.component';
 
 import { GonComponent } from './Gon/gon.component';
