@@ -15,9 +15,11 @@ import { AlexisLuthorComponent } from './alexis-luthor/alexis-luthor.component';
 import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
 import { PhoenixWrightComponent } from './phoenix-wright/phoenix-wright.component';
 import { JotaroKujoComponent } from './jotaro-kujo/jotaro-kujo.component';
+
+import { GantaComponent} from './ganta/ganta.component';
 import { GokuComponent } from './goku/goku.component';
 
-import { SanjiComponent } from './sanji/sanji.component';
+import { SanjiComponent } from './sanji/sanji.component'; 
 import { StitchComponent } from './stitch/stitch.component';
 import { FivesComponent } from './fives/fives.component';
 import { CatwomanEoleComponent } from './catwoman-eole/catwoman-eole.component';
@@ -30,13 +32,14 @@ const routes: Routes = [
   { path: 'heroes', component: HeroesComponent },
   { path: 'detail/poison-july', component: PoisonJulyComponent },
   { path: 'detail/mikey-tokyorevengers', component: MikeyComponent },
+  { path: 'detail/ganta', component: GantaComponent },
   { path: 'detail/tsuyu-asui', component: TsuyuAsuiComponent },
   { path: 'detail/cassian-alexis', component: CassianComponent },
   { path: 'detail/gon', component: GonComponent},
   { path: 'detail/thor', component: ThorComponent },
   { path: 'detail/alexis-luthor', component: AlexisLuthorComponent },
   { path: 'detail/goku', component: GokuComponent },
-  { path: "detail/sanji", component: SanjiComponent },
+  { path: 'detail/sanji', component: SanjiComponent },
   { path: 'detail/jolyne-kujo', component: JolyneKujoComponent },
   { path: 'detail/krilin', component: KrilinComponent },
   { path: 'detail/roronoa-zoro', component: ZoroComponent },
@@ -44,11 +47,8 @@ const routes: Routes = [
   { path: 'detail/jotaro-kujo', component: JotaroKujoComponent },
   { path: 'detail/stitch', component: StitchComponent },
   { path: 'detail/fives', component: FivesComponent },
-
-  { path: "detail/catwoman-eole", component:CatwomanEoleComponent },
-
-
-  { path: "detail/guts", component:GutsvidalComponent },
+  { path: 'detail/catwoman-eole', component: CatwomanEoleComponent },
+  { path: 'detail/guts', component: GutsvidalComponent },
   { path: 'detail/gaara-fideline', component: MulanFidelineComponent },
 ];
 

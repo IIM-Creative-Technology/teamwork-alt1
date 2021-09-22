@@ -28,12 +28,14 @@ import { StitchComponent } from './stitch/stitch.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { MessagesComponent } from './messages/messages.component';
+
 import { FivesComponent } from './fives/fives.component';
 import { GutsvidalComponent } from './Guts-vidal/Guts-vidal.component';
+import {GantaComponent} from './ganta/ganta.component';
 import { SanjiComponent } from './sanji/sanji.component';
 import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
 import { KrilinComponent } from './krilin/krilin.component';
-import { ZoroComponent } from "./zoro/zoro.component";
+import { ZoroComponent } from './zoro/zoro.component';
 import { MulanFidelineComponent } from './mulan-fideline/mulan-fideline.component';
 
 
@@ -61,7 +63,6 @@ import { MulanFidelineComponent } from './mulan-fideline/mulan-fideline.componen
     CassianComponent,
     GonComponent,
     ThorComponent,
-    AlexisLuthorComponent,
     JolyneKujoComponent,
     PhoenixWrightComponent,
     HeroSearchComponent,
@@ -70,6 +71,9 @@ import { MulanFidelineComponent } from './mulan-fideline/mulan-fideline.componen
     JotaroKujoComponent,
     StitchComponent,
     MessagesComponent,
+    HeroSearchComponent,
+    GantaComponent,
+    AlexisLuthorComponent,
     ZoroComponent,
     FivesComponent,
     GutsvidalComponent,
