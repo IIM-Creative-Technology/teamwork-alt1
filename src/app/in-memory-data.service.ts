@@ -13,6 +13,9 @@ export class InMemoryDataService implements InMemoryDbService {
         name: 'Poison July',
         slug: 'poison-july',
         superpower: 'Poison',
+        weakness: 'Fire',
+        age: 20,
+        enemy: 'Batman'
       },
       {
         id: 6,
@@ -41,8 +44,34 @@ export class InMemoryDataService implements InMemoryDbService {
         superpower: 'Richesse',
         weakness: 'Humain',
       },
+
       {
-        id: 626,
+        id: 16,
+        age: 19,
+        name: 'Jolyne Kujo',
+        slug: 'jolyne-kujo',
+        superpower: 'Stand Stone Free',
+      },
+      {
+        id: 69,
+        age: 18,
+        enemy: 'Boo',
+        name: 'Krilin',
+        slug: 'krilin',
+        superpower: 'Super Saiyan',
+        weakness: 'Chauve'
+      },
+      {
+        id: 2020,
+        age: 19,
+        enemy: 'Everyone',
+        name: 'Roronoa Zoro',
+        slug: 'roronoa-zoro',
+        superpower: 'Swordsman',
+        weakness: 'No weakness'
+      },
+      {
+        id:626,
         age: 20,
         enemy: 'Bonnie',
         name: 'Stitch',
@@ -59,6 +88,7 @@ export class InMemoryDataService implements InMemoryDbService {
         superpower: 'Sharp shooter',
         weakness: 'order 66',
       },
+
     ];
     return {heroes};
   }
