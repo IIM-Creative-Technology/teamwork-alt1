@@ -2,8 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 
+
 import { Hero } from '../hero';
 import { HeroService } from '../hero.service';
+
+declare var name: any;
 
 @Component({
   selector: 'app-hero-detail',
@@ -21,8 +24,11 @@ export class FivesComponent implements OnInit {
     private location: Location
   ) {}
 
+
+
   ngOnInit(): void {
     this.getHero();
+    new name();
   }
 
   getHero(): void {
@@ -33,6 +39,8 @@ export class FivesComponent implements OnInit {
   goBack(): void {
     this.location.back();
   }
+
+
 
   /*save(): void {
     if (this.hero) {
