@@ -19,6 +19,7 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { MessagesComponent } from './messages/messages.component';
 import { FivesComponent } from './fives/fives.component';
 import { BatmanComponent } from './batman/batman.component';
+import { GutsvidalComponent } from './Guts-vidal/Guts-vidal.component';
 
 import { SanjiComponent } from './sanji/sanji.component';
 import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
@@ -58,6 +59,8 @@ import {ZoroComponent} from "./zoro/zoro.component";
     BatmanComponent,
     ZoroComponent,
     FivesComponent,
+    BatmanComponent,
+    GutsvidalComponent
   ],
   bootstrap: [AppComponent]
 })

@@ -97,10 +97,19 @@ export class InMemoryDataService implements InMemoryDbService {
         id: 55555,
         age: 10,
         enemy: "Droids",
-        name: "Fives", 
+        name: "Fives",
         slug: "fives",
         superpower: "sharp shooter",
         weakness: "order 66"
+      },
+      {
+        id: 40,
+        age: 24,
+        enemy: "Griffith",
+        name: "Guts",
+        slug: "guts",
+        superpower: "Force Surhumaine",
+        weakness: "God Hand"
       }
     ];
     return { heroes };
