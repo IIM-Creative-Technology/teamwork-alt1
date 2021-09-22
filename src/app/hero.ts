@@ -5,5 +5,9 @@ export interface Hero {
   superpower: string;
   age: number;
   weakness: string;
+<<<<<<< HEAD
   enemy:string;
+=======
+  ennemy: string;
+>>>>>>> origin
 }
