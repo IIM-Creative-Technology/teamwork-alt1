@@ -5,6 +5,7 @@ import { BatmanComponent } from './batman/batman.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
 import { FivesComponent } from './fives/fives.component';
+import { GutsvidalComponent } from './Guts-vidal/Guts-vidal.component';
 
 
 const routes: Routes = [
@@ -12,7 +13,8 @@ const routes: Routes = [
   { path: 'heroes', component: HeroesComponent },
   { path: 'detail/poison-july', component: PoisonJulyComponent },
   { path: 'detail/fives', component: FivesComponent },
-  { path: "detail/batman", component:BatmanComponent }
+  { path: "detail/batman", component:BatmanComponent },
+  { path: "detail/guts", component:GutsvidalComponent }
 ];
 
 @NgModule({
