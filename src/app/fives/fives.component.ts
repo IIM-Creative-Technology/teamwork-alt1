@@ -6,7 +6,6 @@ import { Location } from '@angular/common';
 import { Hero } from '../hero';
 import { HeroService } from '../hero.service';
 
-declare var name: any;
 
 @Component({
   selector: 'app-hero-detail',
@@ -28,7 +27,6 @@ export class FivesComponent implements OnInit {
 
   ngOnInit(): void {
     this.getHero();
-    new name();
   }
 
   getHero(): void {
