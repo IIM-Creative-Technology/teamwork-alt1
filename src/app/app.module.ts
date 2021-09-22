@@ -9,9 +9,13 @@ import { InMemoryDataService } from './in-memory-data.service';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
+<<<<<<< HEAD
 
+=======
+import { ThorComponent } from './thor/thor.component';
+>>>>>>> 9ab7e10b90c9d4ccdaff9f2b05fcd5e3f974fe87
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
-import { AbdelComponent } from './abdel/abdel.component';
+import { GokuComponent } from './goku/goku.component';
 import { PhoenixWrightComponent } from './phoenix-wright/phoenix-wright.component';
 import { JotaroKujoComponent } from './jotaro-kujo/jotaro-kujo.component';
 import { StitchComponent } from './stitch/stitch.component';
@@ -21,11 +25,14 @@ import { MessagesComponent } from './messages/messages.component';
 import { FivesComponent } from './fives/fives.component';
 import { BatmanComponent } from './batman/batman.component';
 import { GutsvidalComponent } from './Guts-vidal/Guts-vidal.component';
+<<<<<<< HEAD
 import { JessicaJonesComponent } from './jessica-jones/jessica-jones.component';
+=======
+>>>>>>> 9ab7e10b90c9d4ccdaff9f2b05fcd5e3f974fe87
 import { SanjiComponent } from './sanji/sanji.component';
 import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
 import { KrilinComponent } from './krilin/krilin.component';
-import {ZoroComponent} from "./zoro/zoro.component";
+import { ZoroComponent } from "./zoro/zoro.component";
 
 
 @NgModule({
@@ -45,9 +52,13 @@ import {ZoroComponent} from "./zoro/zoro.component";
   declarations: [
     AppComponent,
     HeroesComponent,
+<<<<<<< HEAD
 
+=======
+    ThorComponent,
+>>>>>>> 9ab7e10b90c9d4ccdaff9f2b05fcd5e3f974fe87
     PoisonJulyComponent,
-    AbdelComponent,
+    GokuComponent,
     JolyneKujoComponent,
     JessicaJonesComponent,
     PhoenixWrightComponent,
@@ -67,4 +78,4 @@ import {ZoroComponent} from "./zoro/zoro.component";
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }
