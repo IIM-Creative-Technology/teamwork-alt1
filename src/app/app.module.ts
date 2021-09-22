@@ -35,7 +35,7 @@ import { MessagesComponent } from './messages/messages.component';
     PoisonJulyComponent,
     MulanFidelineComponent,
     MessagesComponent,
-    HeroSearchComponent
+    HeroSearchComponent,
   ],
   bootstrap: [ AppComponent ]
 })

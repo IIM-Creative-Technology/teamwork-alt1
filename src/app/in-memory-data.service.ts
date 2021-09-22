@@ -7,19 +7,16 @@ import { Hero } from './hero';
 })
 export class InMemoryDataService implements InMemoryDbService {
   createDb() {
-    const heroes = [
-      {
-        id: 11,
-        name: 'Poison July',
-        slug: 'poison-july',
-        superpower: 'Poison'
-      },
+    const heroes : Hero[] = [
       {
         id: 4,
         name: 'Mulan Fideline',
         slug: 'mulan-fideline',
-        superpower: 'Le Qi'
-      }
+        superpower: 'Le Qi',
+        weakness: "Fire",
+        age: 20,
+        ennemy: "Batman"
+      },
     ];
     return {heroes};
   }

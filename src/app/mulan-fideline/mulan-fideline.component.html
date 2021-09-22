@@ -1,12 +1,17 @@
 <div *ngIf="hero">
-  <h2>{{hero.name | uppercase}} Details</h2>
-  <div><span>id: </span>{{hero.id}}</div>
+  <!--<div><span>id: </span>{{hero.id}}</div>
   <div><span>name: </span>{{hero.name}}</div>
-  <div><span>superpower: </span>{{hero.superpower}}</div>
-  <div>
-     <img src="https://www.urban-comics.com/wp-content/uploads/2017/08/poisonivy3-1024x520.jpg" alt="poison july"/>
+  <div><span>superpower: </span>{{hero.superpower}}</div> -->
+  <div class="heroContainer">
+    <div class="card">
+      <div class="imgBox">
+       <!-- <img src="https://i.pinimg.com/564x/9f/99/b1/9f99b1a9a6e1718dd9e3ebb9faa7ae39.jpg" alt="mulan"/> -->
+      </div>
+      <div class="details">
+        <h2>{{hero.name | uppercase}} Details</h2>
+      </div>
+    </div>
   </div>
-
   <button (click)="goBack()">go back</button>
   <!--<button (click)="save()">save</button>-->
 </div>
