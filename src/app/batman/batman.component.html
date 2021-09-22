@@ -1,0 +1,12 @@
+<div *ngIf="hero">
+    <h2>{{hero.name | uppercase}} Details</h2>
+    <div><span>id: </span>{{hero.id}}</div>
+    <div><span>name: </span>{{hero.name}}</div>
+    <div><span>superpower: </span>{{hero.superpower}}</div>
+    <div>
+        <img src="https://cdn.pixabay.com/photo/2020/07/06/17/51/batman-5377804_640.png" alt="batman"/>
+    </div>
+
+    <button (click)="goBack()">go back</button>
+    <!--<button (click)="save()">save</button>-->
+</div>

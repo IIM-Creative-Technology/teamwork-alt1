@@ -23,3 +23,9 @@ button:disabled {
   color: #ccc;
   cursor: auto;
 }
+.container{
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  margin: auto;
+}
