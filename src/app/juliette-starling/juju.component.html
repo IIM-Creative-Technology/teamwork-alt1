@@ -1,0 +1,15 @@
+<div *ngIf="hero">
+  <h2>{{hero.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{hero.id}}</div>
+  <div><span>name: </span>{{hero.name}}</div>
+  <div><span>superpower: </span>{{hero.superpower}}</div>
+  <div>
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_g8Th2HHkLxAAi5SQ0D-MEuKVYrcoKYUdhw&usqp=CAU" alt="juju"/>
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_g8Th2HHkLxAAi5SQ0D-MEuKVYrcoKYUdhw&usqp=CAU" alt="juju"/>
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_g8Th2HHkLxAAi5SQ0D-MEuKVYrcoKYUdhw&usqp=CAU" alt="juju"/>
+  </div>
+
+
+  <button (click)="goBack()">go back</button>
+  <!--<button (click)="save()">save</button>-->
+</div>
