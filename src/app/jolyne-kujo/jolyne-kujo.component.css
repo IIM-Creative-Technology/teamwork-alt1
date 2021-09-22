@@ -1,0 +1,47 @@
+/* JolyneKujoComponent's private CSS styles */
+h2{
+  font-weight: bold;
+  color: #435960;
+  font-size: 30px;
+}
+label {
+  color: #435960;
+  font-weight: bold;
+}
+input {
+  font-size: 1em;
+  padding: .5rem;
+}
+button {
+  margin: 50px auto;
+  background-color: #eee;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  border: 1px solid #435960;
+  display: block;
+}
+button:hover {
+  background-color: #435960;
+}
+button:disabled {
+  background-color: #eee;
+  color: #ccc;
+  cursor: auto;
+}
+p{
+  font-size: 20px;
+}
+span{
+  font-weight: bold;
+  color: #435960;
+  text-transform: capitalize;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+img{
+  width: 500px;
+}
