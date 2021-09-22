@@ -1,4 +1,8 @@
 /* HeroesComponent's private CSS styles */
+body {
+  background-color: #000;
+}
+
 .heroes {
   margin: 0 0 2em 0;
   list-style-type: none;
@@ -89,5 +93,52 @@ button.delete:hover {
 }
 
 img {
-  max-width: 600px;
+  max-width: 400px;
 }
+
+/* Description du personnage */
+
+.pres {
+  position: absolute;
+  margin-top: 3em;
+  color: #fff;
+  font-size: 9px;
+}
+
+.description {
+  margin: auto;
+  display: flex;
+  color: #000;
+  flex-flow: row wrap;
+}
+
+.img-goku {
+  width: 50%;
+}
+
+.goku {
+  width: 100%;
+}
+
+.texte1 {
+  width: 50%;
+  color: #fff;
+  color: #000;
+}
+
+.texte1 p{
+  font-size: 20px;
+}
+
+.texte1 .end{
+  margin-bottom: 35px;
+}
+
+.texte1 .end2{
+  margin-bottom: 10em;
+}
+
+.texte1 h3{
+  font-size: 80px;
+}
+
