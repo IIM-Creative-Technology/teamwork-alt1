@@ -7,11 +7,11 @@ import { HeroService } from '../hero.service';
 
 @Component({
   selector: 'app-hero-detail',
-  templateUrl: './zoro.component.html',
-  styleUrls: [ './zoro.component.css' ]
+  templateUrl: './mulan-fideline.component.html',
+  styleUrls: [ './mulan-fideline.component.css' ]
 })
-export class ZoroComponent implements OnInit {
-  id: number = 2020;
+export class MulanFidelineComponent implements OnInit {
+  id: number = 4;
   hero: Hero | undefined;
 
   constructor(

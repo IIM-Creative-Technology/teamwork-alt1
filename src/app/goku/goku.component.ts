@@ -7,18 +7,18 @@ import { HeroService } from '../hero.service';
 
 @Component({
   selector: 'app-hero-detail',
-  templateUrl: './zoro.component.html',
-  styleUrls: [ './zoro.component.css' ]
+  templateUrl: './goku.component.html',
+  styleUrls: ['./goku.component.css']
 })
-export class ZoroComponent implements OnInit {
-  id: number = 2020;
+export class GokuComponent implements OnInit {
+  id: number = 20;
   hero: Hero | undefined;
 
   constructor(
     private route: ActivatedRoute,
     private heroService: HeroService,
     private location: Location
-  ) {}
+  ) { }
 
   ngOnInit(): void {
     this.getHero();

@@ -9,13 +9,28 @@ export class InMemoryDataService implements InMemoryDbService {
   createDb() {
     const heroes: Hero[] = [
       {
+        id: 9,
+        name: 'thor',
+        slug: 'thor',
+        superpower: 'marteau',
+        age: 35,
+        weakness: 'dos',
+        enemy: 'méchants'
+      },
+      {
         id: 11,
         name: 'Poison July',
         slug: 'poison-july',
-        superpower: 'Poison',
-        weakness: 'Fire',
-        age: 20,
-        enemy: 'Batman'
+        superpower: 'Poison'
+      },
+      {
+        id: 20,
+        name: 'Goku',
+        slug: 'goku',
+        superpower: 'Saiyan',
+        age: 38,
+        weakness: 'Gentillesse',
+        enemy: 'Frieza, Broly, Jiren, Cell, Janemba, ....... '
       },
       {
         id: 6,
@@ -29,7 +44,7 @@ export class InMemoryDataService implements InMemoryDbService {
       {
         id: 1,
         name: 'Jotaro Kujo',
-        slug : 'jotaro-kujo',
+        slug: 'jotaro-kujo',
         superpower: 'Star Platinium',
         age: 17,
         weakness: 'Distance',
@@ -43,6 +58,15 @@ export class InMemoryDataService implements InMemoryDbService {
         slug: "batman",
         superpower: "Richesse",
         weakness: "Humain"
+      },
+      {
+        id: 17,
+        age: 21,
+        enemy: "Kaido",
+        name: "Sanji",
+        slug: "sanji",
+        superpower: "Techniques de la jambe noire",
+        weakness: "Les Femmes"
       },
       {
         id: 16,
@@ -72,7 +96,7 @@ export class InMemoryDataService implements InMemoryDbService {
         weakness: 'No weakness'
       },
       {
-        id:626,
+        id: 626,
         age: 20,
         enemy: 'Bonnie',
         name: 'Stitch',
@@ -82,15 +106,78 @@ export class InMemoryDataService implements InMemoryDbService {
       },
       {
         id: 55555,
-        age: 22,
+        age: 10,
         enemy: "Droids",
         name: "Fives",
         slug: "fives",
-        superpower: "Sharp shooter",
+        superpower: "sharp shooter",
         weakness: "order 66"
-      }
+      },
+      {
+        id: 21,
+        age: 81,
+        enemy: "Alberto Falcone",
+        name: "Catwoman",
+        slug: "catwoman-eole",
+        superpower: "agile",
+        weakness: "stereotypical weaknesses of cats",
+      },
+      {
+        id: 44,
+        name: 'Gon',
+        slug: 'gon',
+        superpower: 'Nen renforcement',
+        age: 28,
+        weakness: 'tro for',
+        enemy: 'Hisoka'
+      },
+      {
+        id: 9,
+        name: 'thor',
+        slug: 'thor',
+        superpower: 'marteau',
+        age: 35,
+        weakness: 'dos',
+        enemy: 'méchants'
+      },
+      {
+        id: 2014,
+        name: 'Alexis Luthor',
+        slug: 'alexis-luthor',
+        superpower: 'Genius Level Intellect',
+        age: 29,
+        weakness: 'Kryptonite',
+        enemy: 'Superman'
+      },
+      {
+        id: 40,
+        age: 24,
+        enemy: "Griffith",
+        name: "Guts",
+        slug: "guts",
+        superpower: "Force Surhumaine",
+        weakness: "God Hand"
+      },
+      {
+        id: 44,
+        name: 'Gon',
+        slug: 'gon',
+        superpower: 'Nen renforcement',
+        enemy:"Hisoka",
+        age: 28,
+        weakness:"trop fort"
+      },
+      {
+        id: 4,
+        age: 20,
+        enemy: "Naruto",
+        name: 'Gaara of the Sand',
+        slug: 'gaara-fideline',
+        superpower: 'Sand',
+        weakness: "Fire",
+      },
     ];
-    return {heroes};
+    return { heroes };
   }
 
   // Overrides the genId method to ensure that a hero always has an id.
