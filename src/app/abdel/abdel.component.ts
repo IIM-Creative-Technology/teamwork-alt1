@@ -7,18 +7,18 @@ import { HeroService } from '../hero.service';
 
 @Component({
   selector: 'app-hero-detail',
-  templateUrl: './batman.component.html',
-  styleUrls: [ './batman.component.css' ]
+  templateUrl: './abdel.component.html',
+  styleUrls: ['./abdel.component.css']
 })
-export class BatmanComponent implements OnInit {
-  id: number = 98;
+export class AbdelComponent implements OnInit {
+  id: number = 10;
   hero: Hero | undefined;
 
   constructor(
     private route: ActivatedRoute,
     private heroService: HeroService,
     private location: Location
-  ) {}
+  ) { }
 
   ngOnInit(): void {
     this.getHero();

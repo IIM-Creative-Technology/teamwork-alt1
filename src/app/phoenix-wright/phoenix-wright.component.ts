@@ -7,11 +7,11 @@ import { HeroService } from '../hero.service';
 
 @Component({
   selector: 'app-hero-detail',
-  templateUrl: './batman.component.html',
-  styleUrls: [ './batman.component.css' ]
+  templateUrl: './phoenix-wright.component.html',
+  styleUrls: ['./phoenix-wright.component.css'],
 })
-export class BatmanComponent implements OnInit {
-  id: number = 98;
+export class PhoenixWrightComponent implements OnInit {
+  id: number = 6;
   hero: Hero | undefined;
 
   constructor(
@@ -25,8 +25,7 @@ export class BatmanComponent implements OnInit {
   }
 
   getHero(): void {
-    this.heroService.getHero(this.id)
-      .subscribe(hero => this.hero = hero);
+    this.heroService.getHero(this.id).subscribe((hero) => (this.hero = hero));
   }
 
   goBack(): void {

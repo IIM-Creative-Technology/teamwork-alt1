@@ -6,4 +6,7 @@ export interface Hero {
   age: number;
   weakness: string;
   enemy: string;
+  age?: number;
+  weakness?: string;
+  enemy?: string;
 }
