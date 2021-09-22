@@ -9,6 +9,7 @@ import { InMemoryDataService } from './in-memory-data.service';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
+import { ThorComponent } from './thor/thor.component';
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
 import { GokuComponent } from './goku/goku.component';
 import { PhoenixWrightComponent } from './phoenix-wright/phoenix-wright.component';
@@ -20,7 +21,6 @@ import { MessagesComponent } from './messages/messages.component';
 import { FivesComponent } from './fives/fives.component';
 import { BatmanComponent } from './batman/batman.component';
 import { GutsvidalComponent } from './Guts-vidal/Guts-vidal.component';
-
 import { SanjiComponent } from './sanji/sanji.component';
 import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
 import { KrilinComponent } from './krilin/krilin.component';
@@ -44,6 +44,7 @@ import { ZoroComponent } from "./zoro/zoro.component";
   declarations: [
     AppComponent,
     HeroesComponent,
+    ThorComponent,
     PoisonJulyComponent,
     GokuComponent,
     JolyneKujoComponent,
