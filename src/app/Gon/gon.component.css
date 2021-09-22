@@ -1,4 +1,4 @@
-/* AlexisLuthorComponent's private CSS styles */
+/* PoisonJulyComponent's private CSS styles */
 label {
   color: #435960;
   font-weight: bold;
@@ -23,19 +23,3 @@ button:disabled {
   color: #ccc;
   cursor: auto;
 }
-
-.flex {
-  display: flex;
-  justify-content: space-around;
-}
-
-
-
-.img, .center {
-  text-align: center;
-}
-
-img {
-  width: 50%;
-}
-

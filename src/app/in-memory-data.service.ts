@@ -24,6 +24,7 @@ export class InMemoryDataService implements InMemoryDbService {
         superpower: 'Poison'
       },
       {
+        
         id: 20,
         name: 'Goku',
         slug: 'goku',
@@ -123,6 +124,7 @@ export class InMemoryDataService implements InMemoryDbService {
         weakness: "God Hand"
       },
       {
+
         id: 2014,
         name: 'Alexis Luthor',
         slug: 'alexis-luthor',
@@ -130,6 +132,25 @@ export class InMemoryDataService implements InMemoryDbService {
         age: 29,
         weakness: 'Kryptonite',
         ennemy: 'Superman'
+      },
+      {
+        id: 44,
+        name: 'Gon',
+        slug: 'gon',
+        superpower: 'Nen renforcement',
+        enemy:"Hisoka",
+        age: 28,
+        weakness:"trop fort"
+      },
+      {
+        id: 4,
+        age: 20,
+        enemy: "Naruto",
+        name: 'Gaara of the Sand',
+        slug: 'gaara-fideline',
+        superpower: 'Sand',
+        weakness: "Fire",
+
       }
     ];
     return { heroes };
