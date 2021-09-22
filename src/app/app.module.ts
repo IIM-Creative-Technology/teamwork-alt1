@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
+import { TsuyuAsuiComponent } from './tsuyu-asui/tsuyu-asui.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { MessagesComponent } from './messages/messages.component';
@@ -32,6 +33,7 @@ import { MessagesComponent } from './messages/messages.component';
     AppComponent,
     HeroesComponent,
     PoisonJulyComponent,
+    TsuyuAsuiComponent,
     MessagesComponent,
     HeroSearchComponent
   ],
