@@ -11,6 +11,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
 import { PhoenixWrightComponent } from './phoenix-wright/phoenix-wright.component';
+import { JotaroKujoComponent } from './jotaro-kujo/jotaro-kujo.component';
 import { StitchComponent } from './stitch/stitch.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
@@ -39,6 +40,7 @@ import { BatmanComponent } from './batman/batman.component';
     PhoenixWrightComponent,
     MessagesComponent,
     HeroSearchComponent,
+    JotaroKujoComponent,
     StitchComponent,
     MessagesComponent,
     HeroSearchComponent,

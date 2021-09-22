@@ -24,6 +24,15 @@ export class InMemoryDataService implements InMemoryDbService {
         enemy: 'Criminals',
       },
       {
+        id: 1,
+        name: 'Jotaro Kujo',
+        slug : 'jotaro-kujo',
+        superpower: 'Star Platinium',
+        age: 17,
+        weakness: 'Distance',
+        enemy: 'DIO',
+      },
+      {
         id: 98,
         age: 30,
         enemy: "Joker",
