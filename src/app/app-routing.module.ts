@@ -25,6 +25,7 @@ import { CatwomanEoleComponent } from './catwoman-eole/catwoman-eole.component';
 import { GutsvidalComponent } from './Guts-vidal/Guts-vidal.component';
 import { MulanFidelineComponent } from './mulan-fideline/mulan-fideline.component';
 import { BatmanComponent } from './batman/batman.component';
+import { JessicaJonesComponent } from './jessica-jones/jessica-jones.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/heroes', pathMatch: 'full' },
@@ -49,7 +50,8 @@ const routes: Routes = [
   { path: 'detail/catwoman-eole', component: CatwomanEoleComponent },
   { path: 'detail/guts', component: GutsvidalComponent },
   { path: 'detail/gaara-fideline', component: MulanFidelineComponent },
-  { path : 'detail/batman', component: BatmanComponent }
+  { path : 'detail/batman', component: BatmanComponent },
+  { path : 'detail/jessica-jones', component: JessicaJonesComponent },
 ];
 
 @NgModule({

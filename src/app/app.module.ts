@@ -16,6 +16,7 @@ import { CassianComponent } from './cassian-alexis/cassian-alexis.component';
 import { GonComponent } from './Gon/gon.component';
 import { ThorComponent } from './thor/thor.component';
 import { AlexisLuthorComponent } from './alexis-luthor/alexis-luthor.component';
+import { JessicaJonesComponent } from './jessica-jones/jessica-jones.component';
 
 import { GokuComponent } from './goku/goku.component';
 import { PhoenixWrightComponent } from './phoenix-wright/phoenix-wright.component';
@@ -57,6 +58,7 @@ import { BatmanComponent } from './batman/batman.component';
     TsuyuAsuiComponent,
     GokuComponent,
     CassianComponent,
+    JessicaJonesComponent,
     GonComponent,
     ThorComponent,
     JolyneKujoComponent,
