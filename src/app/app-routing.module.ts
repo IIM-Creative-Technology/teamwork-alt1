@@ -4,12 +4,14 @@ import { BatmanComponent } from './batman/batman.component';
 
 import { HeroesComponent } from './heroes/heroes.component';
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
+import { FivesComponent } from './fives/fives.component';
 
 
 const routes: Routes = [
   { path: '', redirectTo: '/heroes', pathMatch: 'full' },
   { path: 'heroes', component: HeroesComponent },
   { path: 'detail/poison-july', component: PoisonJulyComponent },
+  { path: 'detail/fives', component: FivesComponent },
   { path: "detail/batman", component:BatmanComponent }
 ];
 
