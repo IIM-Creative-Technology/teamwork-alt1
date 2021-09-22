@@ -29,7 +29,7 @@ export class InMemoryDataService implements InMemoryDbService {
       {
         id: 1,
         name: 'Jotaro Kujo',
-        slug : 'jotaro-kujo',
+        slug: 'jotaro-kujo',
         superpower: 'Star Platinium',
         age: 17,
         weakness: 'Distance',
@@ -38,12 +38,13 @@ export class InMemoryDataService implements InMemoryDbService {
       {
         id: 98,
         age: 30,
-        enemy: "Joker",
-        name: "Batman",
-        slug: "batman",
-        superpower: "Richesse",
-        weakness: "Humain"
+        enemy: 'Joker',
+        name: 'Batman',
+        slug: 'batman',
+        superpower: 'Richesse',
+        weakness: 'Humain',
       },
+
       {
         id: 16,
         age: 19,
@@ -81,12 +82,13 @@ export class InMemoryDataService implements InMemoryDbService {
       {
         id: 55555,
         age: 22,
-        enemy: "Droids",
-        name: "Fives",
-        slug: "fives",
-        superpower: "Sharp shooter",
-        weakness: "order 66"
-      }
+        enemy: 'Droids',
+        name: 'Fives',
+        slug: 'fives',
+        superpower: 'Sharp shooter',
+        weakness: 'order 66',
+      },
+
     ];
     return {heroes};
   }
