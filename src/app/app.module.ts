@@ -11,6 +11,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 
+import { PoisonJulyComponent } from './poison-july/poison-july.component';
+
+
+
+
+import { HeroesComponent } from './heroes/heroes.component';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
+import { MessagesComponent } from './messages/messages.component';
+
+import { CatwomanEoleComponent } from './catwoman-eole/catwoman-eole.component';
+
 import { GonComponent } from './Gon/gon.component';
 
 import { ThorComponent } from './thor/thor.component';
@@ -31,12 +42,7 @@ import { SanjiComponent } from './sanji/sanji.component';
 import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
 import { KrilinComponent } from './krilin/krilin.component';
 import { ZoroComponent } from "./zoro/zoro.component";
-
-
 import { MulanFidelineComponent } from './mulan-fideline/mulan-fideline.component';
-import { HeroesComponent } from './heroes/heroes.component';
-import { HeroSearchComponent } from './hero-search/hero-search.component';
-import { MessagesComponent } from './messages/messages.component';
 
 
 @NgModule({
@@ -56,13 +62,10 @@ import { MessagesComponent } from './messages/messages.component';
   declarations: [
     AppComponent,
     HeroesComponent,
-
-    GonComponent,
-
     ThorComponent,
-
-    AlexisLuthorComponent,
+    PoisonJulyComponent,
     GokuComponent,
+    GonComponent,
     JolyneKujoComponent,
     PhoenixWrightComponent,
     MessagesComponent,
@@ -71,14 +74,14 @@ import { MessagesComponent } from './messages/messages.component';
     KrilinComponent,
     JotaroKujoComponent,
     StitchComponent,
-    MessagesComponent,
-    HeroSearchComponent,
+    AlexisLuthorComponent,
     ZoroComponent,
     FivesComponent,
+    CatwomanEoleComponent,
     GutsvidalComponent,
     MulanFidelineComponent,
-    MessagesComponent,
-    HeroSearchComponent,
+
+
   ],
   bootstrap: [AppComponent]
 })

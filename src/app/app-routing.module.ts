@@ -4,10 +4,8 @@ import { KrilinComponent } from './krilin/krilin.component';
 import { ZoroComponent } from './zoro/zoro.component';
 import { HeroesComponent } from './heroes/heroes.component';
 
-
-import { GonComponent } from './Gon/gon.component';
 import { ThorComponent } from './thor/thor.component';
-import { AlexisLuthorComponent } from './alexis-luthor/alexis-luthor.component';
+
 import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
 import { PhoenixWrightComponent } from './phoenix-wright/phoenix-wright.component';
 import { JotaroKujoComponent } from './jotaro-kujo/jotaro-kujo.component';
@@ -16,6 +14,11 @@ import { GokuComponent } from './goku/goku.component';
 import { SanjiComponent } from './sanji/sanji.component';
 import { StitchComponent } from './stitch/stitch.component';
 import { FivesComponent } from './fives/fives.component';
+import { CatwomanEoleComponent } from './catwoman-eole/catwoman-eole.component';
+
+import { GonComponent } from './Gon/gon.component';
+
+import { AlexisLuthorComponent } from './alexis-luthor/alexis-luthor.component';
 import { GutsvidalComponent } from './Guts-vidal/Guts-vidal.component';
 import { MulanFidelineComponent } from './mulan-fideline/mulan-fideline.component';
 
@@ -35,6 +38,14 @@ const routes: Routes = [
   { path: 'detail/jotaro-kujo', component: JotaroKujoComponent },
   { path: 'detail/stitch', component: StitchComponent },
   { path: 'detail/fives', component: FivesComponent },
+
+  { path: "detail/catwoman-eole", component:CatwomanEoleComponent },
+
+  { path: 'detail/gon', component: GonComponent},
+  { path: 'detail/thor', component: ThorComponent },
+  { path: 'detail/alexis-luthor', component: AlexisLuthorComponent },
+
+  { path: "detail/guts", component:GutsvidalComponent },
   { path: 'detail/gaara-fideline', component: MulanFidelineComponent },
   { path: "detail/guts", component: GutsvidalComponent }
 ];
