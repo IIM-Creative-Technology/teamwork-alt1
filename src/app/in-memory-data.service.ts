@@ -123,14 +123,6 @@ export class InMemoryDataService implements InMemoryDbService {
         weakness: 'Brittle'
       },
       {
-        id: 626,
-        enemy: "Joker",
-        name: "Batman",
-        slug: "batman",
-        superpower: "Richesse",
-        weakness: "Humain"
-      },
-      {
         id: 17,
         age: 21,
         enemy: "Kaido",

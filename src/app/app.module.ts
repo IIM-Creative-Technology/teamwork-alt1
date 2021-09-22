@@ -2,14 +2,10 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
-
 import { AppRoutingModule } from './app-routing.module';
-
 import { AppComponent } from './app.component';
-
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
 import { MikeyComponent } from './mikey-jeanpierre/mikey-jeanpierre.component';
 import { TsuyuAsuiComponent } from './tsuyu-asui/tsuyu-asui.component';
@@ -37,7 +33,7 @@ import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
 import { KrilinComponent } from './krilin/krilin.component';
 import { ZoroComponent } from './zoro/zoro.component';
 import { MulanFidelineComponent } from './mulan-fideline/mulan-fideline.component';
-
+import { BatmanComponent } from './batman/batman.component';
 
 @NgModule({
   imports: [
@@ -79,6 +75,8 @@ import { MulanFidelineComponent } from './mulan-fideline/mulan-fideline.componen
     GutsvidalComponent,
     CatwomanEoleComponent,
     MulanFidelineComponent,
+    BatmanComponent
+
   ],
   bootstrap: [AppComponent]
 })
