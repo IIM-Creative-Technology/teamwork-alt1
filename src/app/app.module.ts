@@ -18,6 +18,7 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { MessagesComponent } from './messages/messages.component';
 import { FivesComponent } from './fives/fives.component';
 import { BatmanComponent } from './batman/batman.component';
+import {ZoroComponent} from "./zoro/zoro.component";
 
 @NgModule({
   imports: [
@@ -44,6 +45,9 @@ import { BatmanComponent } from './batman/batman.component';
     StitchComponent,
     MessagesComponent,
     HeroSearchComponent,
+    BatmanComponent,
+    ZoroComponent
+
     FivesComponent,
     BatmanComponent
   ],
