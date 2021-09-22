@@ -28,11 +28,11 @@ export class InMemoryDataService implements InMemoryDbService {
       },
       {
         id: 55555,
-        age: 22,
+        age: 10,
         enemy: "Droids",
         name: "Fives", 
         slug: "fives",
-        superpower: "Sharp shooter",
+        superpower: "sharp shooter",
         weakness: "order 66"
       }
     ];
