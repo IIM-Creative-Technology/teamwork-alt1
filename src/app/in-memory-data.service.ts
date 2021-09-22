@@ -63,6 +63,15 @@ export class InMemoryDataService implements InMemoryDbService {
         enemy: 'DIO',
       },
       {
+        id: 448,
+        age: 16,
+        name: 'Tsuyu Asui',
+        slug: 'tsuyu-asui',
+        enemy: "Les Vilains",
+        superpower: 'Grenouille',
+        weakness: "unknown",
+      },
+      {
         id: 98,
         age: 30,
         enemy: "Joker",

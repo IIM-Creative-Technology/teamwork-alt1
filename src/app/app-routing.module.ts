@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { KrilinComponent } from './krilin/krilin.component';
 import { ZoroComponent } from './zoro/zoro.component';
 import { HeroesComponent } from './heroes/heroes.component';
+import { TsuyuAsuiComponent } from './tsuyu-asui/tsuyu-asui.component';
 
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
 import { CassianComponent } from './cassian-alexis/cassian-alexis.component';
@@ -29,6 +30,7 @@ const routes: Routes = [
   { path: '', redirectTo: '/heroes', pathMatch: 'full' },
   { path: 'heroes', component: HeroesComponent },
   { path: 'detail/poison-july', component: PoisonJulyComponent },
+  { path: 'detail/tsuyu-asui', component: TsuyuAsuiComponent },
   { path: 'detail/cassian-alexis', component: CassianComponent },
   { path: 'detail/gon', component: GonComponent},
   { path: 'detail/alexis-luthor', component: AlexisLuthorComponent },

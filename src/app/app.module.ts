@@ -12,6 +12,10 @@ import { AppComponent } from './app.component';
 
 
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
+import { TsuyuAsuiComponent } from './tsuyu-asui/tsuyu-asui.component';
+
+import { CatwomanEoleComponent } from './catwoman-eole/catwoman-eole.component';
+
 import { CassianComponent } from './cassian-alexis/cassian-alexis.component';
 import { GonComponent } from './Gon/gon.component';
 
@@ -25,10 +29,6 @@ import { StitchComponent } from './stitch/stitch.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { MessagesComponent } from './messages/messages.component';
-
-
-import { CatwomanEoleComponent } from './catwoman-eole/catwoman-eole.component';
-
 import { FivesComponent } from './fives/fives.component';
 import { GutsvidalComponent } from './Guts-vidal/Guts-vidal.component';
 import { SanjiComponent } from './sanji/sanji.component';
@@ -57,6 +57,9 @@ import { MulanFidelineComponent } from './mulan-fideline/mulan-fideline.componen
     HeroesComponent,
 
     PoisonJulyComponent,
+    TsuyuAsuiComponent,
+    StitchComponent,
+    GokuComponent,
     CassianComponent,
     GonComponent,
 
