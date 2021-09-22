@@ -7,15 +7,15 @@ import { Hero } from './hero';
 })
 export class InMemoryDataService implements InMemoryDbService {
   createDb() {
-    const heroes : Hero[] = [
+    const heroes: Hero[] = [
       {
         id: 11,
         name: 'Poison July',
         slug: 'poison-july',
         superpower: 'Poison',
-        weakness: "Fire",
+        weakness: 'Fire',
         age: 20,
-        enemy: "Batman"
+        enemy: 'Batman'
       },
       {
         id: 6,
@@ -29,7 +29,7 @@ export class InMemoryDataService implements InMemoryDbService {
       {
         id: 1,
         name: 'Jotaro Kujo',
-        slug : 'jotaro-kujo',
+        slug: 'jotaro-kujo',
         superpower: 'Star Platinium',
         age: 17,
         weakness: 'Distance',
@@ -38,11 +38,28 @@ export class InMemoryDataService implements InMemoryDbService {
       {
         id: 98,
         age: 30,
-        enemy: "Joker",
-        name: "Batman",
-        slug: "batman",
-        superpower: "Richesse",
-        weakness: "Humain"
+        enemy: 'Joker',
+        name: 'Batman',
+        slug: 'batman',
+        superpower: 'Richesse',
+        weakness: 'Humain',
+      },
+
+      {
+        id: 16,
+        age: 19,
+        name: 'Jolyne Kujo',
+        slug: 'jolyne-kujo',
+        superpower: 'Stand Stone Free',
+      },
+      {
+        id: 69,
+        age: 18,
+        enemy: 'Boo',
+        name: 'Krilin',
+        slug: 'krilin',
+        superpower: 'Super Saiyan',
+        weakness: 'Chauve'
       },
       {
         id: 2020,
@@ -65,12 +82,13 @@ export class InMemoryDataService implements InMemoryDbService {
       {
         id: 55555,
         age: 22,
-        enemy: "Droids",
-        name: "Fives", 
-        slug: "fives",
-        superpower: "Sharp shooter",
-        weakness: "order 66"
-      }
+        enemy: 'Droids',
+        name: 'Fives',
+        slug: 'fives',
+        superpower: 'Sharp shooter',
+        weakness: 'order 66',
+      },
+
     ];
     return {heroes};
   }
