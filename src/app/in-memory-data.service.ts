@@ -24,6 +24,7 @@ export class InMemoryDataService implements InMemoryDbService {
         superpower: 'Poison'
       },
       {
+
         id: 20,
         name: 'Goku',
         slug: 'goku',
@@ -130,6 +131,15 @@ export class InMemoryDataService implements InMemoryDbService {
         age: 39,
         weakness: 'Post-traumatic stress disorder',
         enemy: 'Kilgrave'
+      },
+      {
+        id: 44,
+        name: 'Gon',
+        slug: 'gon',
+        superpower: 'Nen renforcement',
+        enemy:"Hisoka",
+        age: 28,
+        weakness:"trop fort"
       },
       {
         id: 4,

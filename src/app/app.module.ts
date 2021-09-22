@@ -7,11 +7,21 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
 
 import { AppRoutingModule } from './app-routing.module';
-
-import { AppComponent } from './app.component';
-import { ThorComponent } from './thor/thor.component';
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
+import { AppComponent } from './app.component';
+
+
+import { GonComponent } from './Gon/gon.component';
+
+import { ThorComponent } from './thor/thor.component';
+
+import { AlexisLuthorComponent } from './alexis-luthor/alexis-luthor.component';
+
+
+
+
 import { GokuComponent } from './goku/goku.component';
+
 import { PhoenixWrightComponent } from './phoenix-wright/phoenix-wright.component';
 import { JotaroKujoComponent } from './jotaro-kujo/jotaro-kujo.component';
 import { StitchComponent } from './stitch/stitch.component';
@@ -22,6 +32,8 @@ import { SanjiComponent } from './sanji/sanji.component';
 import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
 import { KrilinComponent } from './krilin/krilin.component';
 import { ZoroComponent } from "./zoro/zoro.component";
+
+
 import { MulanFidelineComponent } from './mulan-fideline/mulan-fideline.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
@@ -44,8 +56,13 @@ import { MessagesComponent } from './messages/messages.component';
   declarations: [
     AppComponent,
     HeroesComponent,
-    ThorComponent,
     PoisonJulyComponent,
+
+    GonComponent,
+
+    ThorComponent,
+
+    AlexisLuthorComponent,
     GokuComponent,
     JolyneKujoComponent,
     JessicaJonesComponent,
@@ -56,6 +73,8 @@ import { MessagesComponent } from './messages/messages.component';
     KrilinComponent,
     JotaroKujoComponent,
     StitchComponent,
+    MessagesComponent,
+    HeroSearchComponent,
     ZoroComponent,
     FivesComponent,
     GutsvidalComponent,

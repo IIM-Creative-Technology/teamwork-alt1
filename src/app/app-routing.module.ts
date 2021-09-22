@@ -3,7 +3,11 @@ import { RouterModule, Routes } from '@angular/router';
 import { KrilinComponent } from './krilin/krilin.component';
 import { ZoroComponent } from './zoro/zoro.component';
 import { HeroesComponent } from './heroes/heroes.component';
+
+
+import { GonComponent } from './Gon/gon.component';
 import { ThorComponent } from './thor/thor.component';
+import { AlexisLuthorComponent } from './alexis-luthor/alexis-luthor.component';
 import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
 import { PhoenixWrightComponent } from './phoenix-wright/phoenix-wright.component';
 import { JotaroKujoComponent } from './jotaro-kujo/jotaro-kujo.component';
@@ -21,6 +25,8 @@ import { MulanFidelineComponent } from './mulan-fideline/mulan-fideline.componen
 const routes: Routes = [
   { path: '', redirectTo: '/heroes', pathMatch: 'full' },
   { path: 'heroes', component: HeroesComponent },
+  { path: 'detail/gon', component: GonComponent},
+  { path: 'detail/alexis-luthor', component: AlexisLuthorComponent },
   { path: 'detail/thor', component: ThorComponent },
   { path: 'detail/goku', component: GokuComponent },
   { path: "detail/sanji", component: SanjiComponent },
