@@ -1,4 +1,4 @@
-/* PoisonJulyComponent's private CSS styles */
+/* CassianComponent's private CSS styles */
 label {
   color: #435960;
   font-weight: bold;
@@ -23,18 +23,14 @@ button:disabled {
   color: #ccc;
   cursor: auto;
 }
-
-.flex {
+.main {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-
-
-
-.img, .center {
-  text-align: center;
-}
-
-img {
-  width: 50%;
+.part1 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

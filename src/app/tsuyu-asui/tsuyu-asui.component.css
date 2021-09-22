@@ -1,4 +1,4 @@
-/* PoisonJulyComponent's private CSS styles */
+/* TsuyuAsuiComponent's private CSS styles */
 label {
   color: #435960;
   font-weight: bold;
@@ -24,17 +24,26 @@ button:disabled {
   cursor: auto;
 }
 
-.flex {
-  display: flex;
+.begin{
+  background-color: #435960;
+  height: 250px;
   justify-content: space-around;
 }
 
-
-
-.img, .center {
+.begin h2{
+  color: white;
+  font-size: 50px;
   text-align: center;
+  vertical-align: middle;
 }
 
-img {
-  width: 50%;
+.tenue{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(67,89,96,0.7);
+}
+
+img{
+  display: block;
 }
