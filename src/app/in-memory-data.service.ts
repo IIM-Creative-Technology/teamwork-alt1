@@ -18,7 +18,10 @@ export class InMemoryDataService implements InMemoryDbService {
         id: 5,
         name: 'Juliette Starling',
         slug: 'juliette-starling',
-        superpower: 'Star Soul Power'
+        superpower: 'Star Soul Power',
+        age: 18,
+        weakness: "Her boy friend",
+        enemy: "Zombies"
       }
     ];
     return {heroes};
