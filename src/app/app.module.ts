@@ -18,6 +18,7 @@ import { ThorComponent } from './thor/thor.component';
 import { AlexisLuthorComponent } from './alexis-luthor/alexis-luthor.component';
 
 import { AbdelComponent } from './abdel/abdel.component';
+import { GokuComponent } from './goku/goku.component';
 import { PhoenixWrightComponent } from './phoenix-wright/phoenix-wright.component';
 import { JotaroKujoComponent } from './jotaro-kujo/jotaro-kujo.component';
 import { StitchComponent } from './stitch/stitch.component';
@@ -27,11 +28,10 @@ import { MessagesComponent } from './messages/messages.component';
 import { FivesComponent } from './fives/fives.component';
 import { BatmanComponent } from './batman/batman.component';
 import { GutsvidalComponent } from './Guts-vidal/Guts-vidal.component';
-
 import { SanjiComponent } from './sanji/sanji.component';
 import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
 import { KrilinComponent } from './krilin/krilin.component';
-import {ZoroComponent} from "./zoro/zoro.component";
+import { ZoroComponent } from "./zoro/zoro.component";
 
 
 @NgModule({
@@ -56,14 +56,13 @@ import {ZoroComponent} from "./zoro/zoro.component";
     CassianComponent,
     GonComponent,
 
-    ThorComponent,
     AlexisLuthorComponent,
 
     AbdelComponent,
+    ThorComponent,
+    GokuComponent,
     JolyneKujoComponent,
     PhoenixWrightComponent,
-    MessagesComponent,
-    HeroSearchComponent,
     SanjiComponent,
     KrilinComponent,
     JotaroKujoComponent,
@@ -73,9 +72,8 @@ import {ZoroComponent} from "./zoro/zoro.component";
     BatmanComponent,
     ZoroComponent,
     FivesComponent,
-    BatmanComponent,
     GutsvidalComponent
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }

@@ -1,15 +1,20 @@
 <div *ngIf="hero">
-  <h2>{{hero.name | uppercase}} Details</h2>
-  <div><span>id: </span>{{hero.id}}</div>
-  <div><span>name: </span>{{hero.name}}</div>
-  <div><span>superpower: </span>{{hero.superpower}}</div>
-  <div><span>age: </span>{{hero.age}}</div>
-  <div><span>weakness: </span>{{hero.weakness}}</div>
-  <div><span>enemy: </span>{{hero.enemy}}</div>
-  <div>
-     <img src="https://www.telez.fr/content/uploads/2018/02/thor.jpg" alt="Thor"/>
+  <div class="center">
+    <h2>{{hero.name | uppercase}} Details</h2>
   </div>
-
+  <div class="flex">
+      <div class="desc">
+        <div><span>id: </span>{{hero.id}}</div>
+        <div><span>my name is </span>{{hero.name}}</div>
+        <div><span>my superpower is </span>{{hero.superpower}}</div>
+        <div><span>my age is </span>{{hero.age}}</div>
+        <div><span>my weakness is </span>{{hero.weakness}}</div>
+        <div><span>my enemy are the </span>{{hero.enemy}}</div>
+      </div>
+    <div class="img">
+      <img src="https://www.telez.fr/content/uploads/2018/02/thor.jpg" alt="Thor"/>
+    </div>
+  </div>
 
   <button (click)="goBack()">go back</button>
   <!--<button (click)="save()">save</button>-->
