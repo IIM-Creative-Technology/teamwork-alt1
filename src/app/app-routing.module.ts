@@ -14,6 +14,7 @@ import { SanjiComponent } from './sanji/sanji.component';
 
 import { StitchComponent } from './stitch/stitch.component';
 import { FivesComponent } from './fives/fives.component';
+import { GutsvidalComponent } from './Guts-vidal/Guts-vidal.component';
 
 
 
@@ -32,6 +33,8 @@ const routes: Routes = [
   { path: 'detail/jotaro-kujo', component: JotaroKujoComponent },
   { path: 'detail/stitch', component: StitchComponent },
   { path: 'detail/fives', component: FivesComponent },
+  { path: "detail/batman", component: BatmanComponent },
+  { path: "detail/guts", component: GutsvidalComponent }
 ];
 
 @NgModule({
