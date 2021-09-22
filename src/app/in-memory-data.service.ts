@@ -13,6 +13,15 @@ export class InMemoryDataService implements InMemoryDbService {
         name: 'Poison July',
         slug: 'poison-july',
         superpower: 'Poison'
+      },
+      {
+        id: 1,
+        name: 'Jotaro Kujo',
+        slug : 'jotaro-kujo',
+        superpower: 'Star Platinium',
+        age: 17,
+        weakness: 'The world',
+        ennemy: 'DIO'
       }
     ];
     return {heroes};

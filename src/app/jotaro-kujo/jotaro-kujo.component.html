@@ -1,0 +1,13 @@
+<div *ngIf="hero">
+  <h2>{{hero.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{hero.id}}</div>
+  <div><span>name: </span>{{hero.name}}</div>
+  <div><span>superpower: </span>{{hero.superpower}}</div>
+  <div>
+     <img src="https://static.wikia.nocookie.net/3__/images/4/48/Jotaro_Kujo2.jpg/revision/latest?cb=20150127013748&path-prefix=300-heroes" alt="Jotaro Kujo"/>
+  </div>
+
+
+  <button (click)="goBack()">go back</button>
+  <!--<button (click)="save()">save</button>-->
+</div>
