@@ -16,6 +16,7 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { MessagesComponent } from './messages/messages.component';
 import { FivesComponent } from './fives/fives.component';
 import { BatmanComponent } from './batman/batman.component';
+import { CatwomanEoleComponent } from './catwoman-eole/catwoman-eole.component'
 
 @NgModule({
   imports: [
@@ -39,7 +40,8 @@ import { BatmanComponent } from './batman/batman.component';
     MessagesComponent,
     HeroSearchComponent,
     FivesComponent,
-    BatmanComponent
+    BatmanComponent,
+    CatwomanEoleComponent
   ],
   bootstrap: [ AppComponent ]
 })

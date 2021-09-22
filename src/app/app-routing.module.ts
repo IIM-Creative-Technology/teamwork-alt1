@@ -6,6 +6,8 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
 import { StitchComponent } from './stitch/stitch.component';
 import { FivesComponent } from './fives/fives.component';
+import { CatwomanEoleComponent } from './catwoman-eole/catwoman-eole.component';
+
 
 
 const routes: Routes = [
@@ -14,7 +16,8 @@ const routes: Routes = [
   { path: 'detail/poison-july', component: PoisonJulyComponent },
   { path: 'detail/stitch', component: StitchComponent },
   { path: 'detail/fives', component: FivesComponent },
-  { path: "detail/batman", component:BatmanComponent }
+  { path: "detail/batman", component:BatmanComponent },
+  { path: "detail/catwoman-eole", component:CatwomanEoleComponent }
 ];
 
 @NgModule({
