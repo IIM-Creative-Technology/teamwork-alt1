@@ -10,12 +10,15 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
+import { PhoenixWrightComponent } from './phoenix-wright/phoenix-wright.component';
+import { JotaroKujoComponent } from './jotaro-kujo/jotaro-kujo.component';
 import { StitchComponent } from './stitch/stitch.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { MessagesComponent } from './messages/messages.component';
 import { FivesComponent } from './fives/fives.component';
 import { BatmanComponent } from './batman/batman.component';
+import {ZoroComponent} from "./zoro/zoro.component";
 
 @NgModule({
   imports: [
@@ -27,20 +30,27 @@ import { BatmanComponent } from './batman/batman.component';
     // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
     // and returns simulated server responses.
     // Remove it when a real server is ready to receive requests.
-    HttpClientInMemoryWebApiModule.forRoot(
-      InMemoryDataService, { dataEncapsulation: false }
-    )
+    HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, {
+      dataEncapsulation: false,
+    }),
   ],
   declarations: [
     AppComponent,
     HeroesComponent,
     PoisonJulyComponent,
+    PhoenixWrightComponent,
+    MessagesComponent,
+    HeroSearchComponent,
+    JotaroKujoComponent,
     StitchComponent,
     MessagesComponent,
     HeroSearchComponent,
+    BatmanComponent,
+    ZoroComponent
+
     FivesComponent,
     BatmanComponent
   ],
-  bootstrap: [ AppComponent ]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
