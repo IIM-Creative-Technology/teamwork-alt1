@@ -11,13 +11,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
+import { MikeyComponent } from './mikey-jeanpierre/mikey-jeanpierre.component';
 import { TsuyuAsuiComponent } from './tsuyu-asui/tsuyu-asui.component';
 
 import { CatwomanEoleComponent } from './catwoman-eole/catwoman-eole.component';
 
 import { CassianComponent } from './cassian-alexis/cassian-alexis.component';
 import { GonComponent } from './Gon/gon.component';
-
 import { ThorComponent } from './thor/thor.component';
 import { AlexisLuthorComponent } from './alexis-luthor/alexis-luthor.component';
 
@@ -57,6 +57,7 @@ import { MulanFidelineComponent } from './mulan-fideline/mulan-fideline.componen
     AppComponent,
     HeroesComponent,
     PoisonJulyComponent,
+    MikeyComponent,
     TsuyuAsuiComponent,
     GokuComponent,
     CassianComponent,
@@ -64,6 +65,7 @@ import { MulanFidelineComponent } from './mulan-fideline/mulan-fideline.componen
     ThorComponent,
     JolyneKujoComponent,
     PhoenixWrightComponent,
+    HeroSearchComponent,
     SanjiComponent,
     KrilinComponent,
     JotaroKujoComponent,
