@@ -22,7 +22,7 @@ export class InMemoryDataService implements InMemoryDbService {
         name: 'Phoenix Wright',
         slug: 'phoenix-wright',
         superpower: 'Law',
-        age: '27',
+        age: 27,
         weakness: 'Miles Edgeworth',
         enemy: 'Criminals',
       },
@@ -40,7 +40,6 @@ export class InMemoryDataService implements InMemoryDbService {
         age: 30,
         enemy: "Joker",
         name: "Batman",
-        name: "Batman", 
         slug: "batman",
         superpower: "Richesse",
         weakness: "Humain"
@@ -53,6 +52,8 @@ export class InMemoryDataService implements InMemoryDbService {
         slug: 'roronoa-zoro',
         superpower: 'Swordsman',
         weakness: 'No weakness'
+      },
+      {
         id:626,
         age: 20,
         enemy: 'Bonnie',

@@ -16,7 +16,7 @@ const routes: Routes = [
   { path: 'heroes', component: HeroesComponent },
   { path: 'detail/poison-july', component: PoisonJulyComponent },
   { path: "detail/batman", component: BatmanComponent },
-  { path: 'detail/roronoa-zoro', component: ZoroComponent }
+  { path: 'detail/roronoa-zoro', component: ZoroComponent },
   { path: 'detail/phoenix-wright', component: PhoenixWrightComponent },
   { path: 'detail/jotaro-kujo', component: JotaroKujoComponent },
   { path: 'detail/stitch', component: StitchComponent },

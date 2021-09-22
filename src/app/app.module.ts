@@ -46,8 +46,7 @@ import {ZoroComponent} from "./zoro/zoro.component";
     MessagesComponent,
     HeroSearchComponent,
     BatmanComponent,
-    ZoroComponent
-
+    ZoroComponent,
     FivesComponent,
     BatmanComponent
   ],
