@@ -7,23 +7,31 @@ import { InMemoryDataService } from './in-memory-data.service';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
-import { HeroesComponent } from './heroes/heroes.component';
-import { HeroSearchComponent } from './hero-search/hero-search.component';
-import { MessagesComponent } from './messages/messages.component';
+import { MikeyComponent } from './mikey-jeanpierre/mikey-jeanpierre.component';
+import { TsuyuAsuiComponent } from './tsuyu-asui/tsuyu-asui.component';
+
 import { CatwomanEoleComponent } from './catwoman-eole/catwoman-eole.component';
+
+import { CassianComponent } from './cassian-alexis/cassian-alexis.component';
 import { GonComponent } from './Gon/gon.component';
 import { ThorComponent } from './thor/thor.component';
 import { AlexisLuthorComponent } from './alexis-luthor/alexis-luthor.component';
+
 import { GokuComponent } from './goku/goku.component';
 import { PhoenixWrightComponent } from './phoenix-wright/phoenix-wright.component';
 import { JotaroKujoComponent } from './jotaro-kujo/jotaro-kujo.component';
 import { StitchComponent } from './stitch/stitch.component';
+import { HeroesComponent } from './heroes/heroes.component';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
+import { MessagesComponent } from './messages/messages.component';
+
 import { FivesComponent } from './fives/fives.component';
 import { GutsvidalComponent } from './Guts-vidal/Guts-vidal.component';
+import {GantaComponent} from './ganta/ganta.component';
 import { SanjiComponent } from './sanji/sanji.component';
 import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
 import { KrilinComponent } from './krilin/krilin.component';
-import { ZoroComponent } from "./zoro/zoro.component";
+import { ZoroComponent } from './zoro/zoro.component';
 import { MulanFidelineComponent } from './mulan-fideline/mulan-fideline.component';
 import { BatmanComponent } from './batman/batman.component';
 
@@ -44,23 +52,28 @@ import { BatmanComponent } from './batman/batman.component';
   declarations: [
     AppComponent,
     HeroesComponent,
-    ThorComponent,
     PoisonJulyComponent,
+    MikeyComponent,
+    TsuyuAsuiComponent,
     GokuComponent,
+    CassianComponent,
     GonComponent,
+    ThorComponent,
     JolyneKujoComponent,
     PhoenixWrightComponent,
-    MessagesComponent,
     HeroSearchComponent,
     SanjiComponent,
     KrilinComponent,
     JotaroKujoComponent,
     StitchComponent,
+    MessagesComponent,
+    HeroSearchComponent,
+    GantaComponent,
     AlexisLuthorComponent,
     ZoroComponent,
     FivesComponent,
-    CatwomanEoleComponent,
     GutsvidalComponent,
+    CatwomanEoleComponent,
     MulanFidelineComponent,
     BatmanComponent
 
