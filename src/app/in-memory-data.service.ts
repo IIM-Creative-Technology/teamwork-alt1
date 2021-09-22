@@ -9,18 +9,27 @@ export class InMemoryDataService implements InMemoryDbService {
   createDb() {
     const heroes: Hero[] = [
       {
+        id: 9,
+        name: 'thor',
+        slug: 'thor',
+        superpower: 'marteau',
+        age: 35,
+        weakness: 'dos',
+        enemy: 'méchants'
+      },
+      {
         id: 11,
         name: 'Poison July',
         slug: 'poison-july',
         superpower: 'Poison'
       },
       {
-        id: 10,
+        id: 20,
         name: 'Goku',
-        slug: 'abdel',
+        slug: 'goku',
         superpower: 'Saiyan',
-        age: 10,
-        weakness: 'Kind',
+        age: 38,
+        weakness: 'Gentillesse',
         enemy: 'Frieza, Broly, Jiren, Cell, Janemba, ....... '
       },
       {
@@ -65,6 +74,8 @@ export class InMemoryDataService implements InMemoryDbService {
         name: 'Jolyne Kujo',
         slug: 'jolyne-kujo',
         superpower: 'Stand Stone Free',
+        weakness: '',
+        enemy: '',
       },
       {
         id: 69,
@@ -85,7 +96,7 @@ export class InMemoryDataService implements InMemoryDbService {
         weakness: 'No weakness'
       },
       {
-        id:626,
+        id: 626,
         age: 20,
         enemy: 'Bonnie',
         name: 'Stitch',

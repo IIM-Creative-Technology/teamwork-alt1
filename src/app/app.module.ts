@@ -9,9 +9,14 @@ import { InMemoryDataService } from './in-memory-data.service';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
+import { ThorComponent } from './thor/thor.component';
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { AbdelComponent } from './abdel/abdel.component';
+=======
+import { GokuComponent } from './goku/goku.component';
+>>>>>>> 9ab7e10b90c9d4ccdaff9f2b05fcd5e3f974fe87
 import { PhoenixWrightComponent } from './phoenix-wright/phoenix-wright.component';
 import { JotaroKujoComponent } from './jotaro-kujo/jotaro-kujo.component';
 import { StitchComponent } from './stitch/stitch.component';
@@ -21,11 +26,10 @@ import { MessagesComponent } from './messages/messages.component';
 import { FivesComponent } from './fives/fives.component';
 import { BatmanComponent } from './batman/batman.component';
 import { GutsvidalComponent } from './Guts-vidal/Guts-vidal.component';
-
 import { SanjiComponent } from './sanji/sanji.component';
 import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
 import { KrilinComponent } from './krilin/krilin.component';
-import {ZoroComponent} from "./zoro/zoro.component";
+import { ZoroComponent } from "./zoro/zoro.component";
 
 =======
 import { MulanFidelineComponent } from './mulan-fideline/mulan-fideline.component';
@@ -51,9 +55,14 @@ import { MessagesComponent } from './messages/messages.component';
   declarations: [
     AppComponent,
     HeroesComponent,
+    ThorComponent,
     PoisonJulyComponent,
 <<<<<<< HEAD
+<<<<<<< HEAD
     AbdelComponent,
+=======
+    GokuComponent,
+>>>>>>> 9ab7e10b90c9d4ccdaff9f2b05fcd5e3f974fe87
     JolyneKujoComponent,
     PhoenixWrightComponent,
     MessagesComponent,
@@ -77,4 +86,4 @@ import { MessagesComponent } from './messages/messages.component';
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }
