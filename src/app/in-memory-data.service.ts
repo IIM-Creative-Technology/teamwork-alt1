@@ -9,10 +9,6 @@ export class InMemoryDataService implements InMemoryDbService {
   createDb() {
     const heroes: Hero[] = [
       {
-<<<<<<< HEAD
-=======
-
->>>>>>> 2a91df65989de90656217baccaf7fe7cc3b03398
         id: 11,
         name: 'Poison July',
         slug: 'poison-july',
@@ -56,7 +52,6 @@ export class InMemoryDataService implements InMemoryDbService {
         enemy: 'méchants'
       },
       {
-<<<<<<< HEAD
         id: 2014,
         name: 'Alexis Luthor',
         slug: 'alexis-luthor',
@@ -74,8 +69,6 @@ export class InMemoryDataService implements InMemoryDbService {
       },
       {
 
-=======
->>>>>>> 2a91df65989de90656217baccaf7fe7cc3b03398
         id: 10,
         name: 'Goku',
         slug: 'goku',
