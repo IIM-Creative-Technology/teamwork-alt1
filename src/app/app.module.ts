@@ -10,7 +10,6 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 
-
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
 import { TsuyuAsuiComponent } from './tsuyu-asui/tsuyu-asui.component';
 
@@ -29,12 +28,14 @@ import { StitchComponent } from './stitch/stitch.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { MessagesComponent } from './messages/messages.component';
+
 import { FivesComponent } from './fives/fives.component';
 import { GutsvidalComponent } from './Guts-vidal/Guts-vidal.component';
+import {GantaComponent} from './ganta/ganta.component';
 import { SanjiComponent } from './sanji/sanji.component';
 import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
 import { KrilinComponent } from './krilin/krilin.component';
-import { ZoroComponent } from "./zoro/zoro.component";
+import { ZoroComponent } from './zoro/zoro.component';
 import { MulanFidelineComponent } from './mulan-fideline/mulan-fideline.component';
 
 
@@ -55,18 +56,12 @@ import { MulanFidelineComponent } from './mulan-fideline/mulan-fideline.componen
   declarations: [
     AppComponent,
     HeroesComponent,
-
     PoisonJulyComponent,
     TsuyuAsuiComponent,
-    StitchComponent,
     GokuComponent,
     CassianComponent,
     GonComponent,
-
-    AlexisLuthorComponent,
-
     ThorComponent,
-    GokuComponent,
     JolyneKujoComponent,
     PhoenixWrightComponent,
     SanjiComponent,
@@ -75,13 +70,13 @@ import { MulanFidelineComponent } from './mulan-fideline/mulan-fideline.componen
     StitchComponent,
     MessagesComponent,
     HeroSearchComponent,
+    GantaComponent,
+    AlexisLuthorComponent,
     ZoroComponent,
     FivesComponent,
     GutsvidalComponent,
     CatwomanEoleComponent,
     MulanFidelineComponent,
-
-
   ],
   bootstrap: [AppComponent]
 })
