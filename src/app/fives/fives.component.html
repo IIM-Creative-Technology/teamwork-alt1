@@ -1,0 +1,19 @@
+<div *ngIf="hero">
+    <header id="header-fives">
+        <h2>CT: {{hero.id}} Details</h2>
+    </header>
+    
+    <div><span>AKA: </span>{{hero.name}}</div>
+    <div><span>Good as a </span><b>{{hero.superpower}}</b></div>
+    <div><span>Don't really like: </span><s>{{hero.enemy}}</s></div>
+    <div><span>Aged of: </span>{{hero.age}}</div>
+    <div><span>Was killed because of: </span>{{hero.weakness}}</div>
+    <div>
+       <img src="https://www.starwars-holonet.com/holonet/images/e/e9/4570/perso_clone_fives_01.jpg" alt="fives"/>
+    </div>
+  
+  
+    <button (click)="goBack()">go back</button>
+    <!--<button (click)="save()">save</button>-->
+  </div>
+  
