@@ -13,9 +13,18 @@ export class InMemoryDataService implements InMemoryDbService {
         name: 'Poison July',
         slug: 'poison-july',
         superpower: 'Poison'
+      },
+      {
+        id: 10,
+        name: 'Abdel',
+        slug: 'abdel',
+        superpower: 'Abdel',
+        age: '10',
+        weakness: 'Kind',
+        ennemy: 'Frieza'
       }
     ];
-    return {heroes};
+    return { heroes };
   }
 
   // Overrides the genId method to ensure that a hero always has an id.

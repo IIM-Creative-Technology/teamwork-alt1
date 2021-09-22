@@ -3,15 +3,17 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { HeroesComponent } from './heroes/heroes.component';
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
+import { AbdelComponent } from './abdel/abdel.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/heroes', pathMatch: 'full' },
   { path: 'heroes', component: HeroesComponent },
-  { path: 'detail/poison-july', component: PoisonJulyComponent }
+  { path: 'detail/poison-july', component: PoisonJulyComponent },
+  { path: 'detail/abdel', component: AbdelComponent }
 ];
 
 @NgModule({
-  imports: [ RouterModule.forRoot(routes) ],
-  exports: [ RouterModule ]
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }
