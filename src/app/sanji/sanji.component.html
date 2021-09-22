@@ -1,0 +1,14 @@
+<div *ngIf="hero">
+    <h2>{{hero.name | uppercase}} Details</h2>
+    <div><span>id: </span>{{hero.id}}</div>
+    <div><span>name: </span>{{hero.name}}</div>
+    <div><span>enemy: </span>{{hero.enemy}}</div>
+    <div><span>superpower: </span>{{hero.superpower}}</div>
+    <div><span>weakness: </span>{{hero.weakness}}</div>
+    <div>
+        <img src="https://cdn.shopify.com/s/files/1/0241/8619/1927/files/sanji-diable-jambe.jpg?v=1590153470" alt="sanji-diable-jambe"/>
+    </div>
+
+    <button (click)="goBack()">go back</button>
+    <!--<button (click)="save()">save</button>-->
+</div>
