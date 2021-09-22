@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
+<<<<<<< HEAD
 import { AbdelComponent } from './abdel/abdel.component';
 import { PhoenixWrightComponent } from './phoenix-wright/phoenix-wright.component';
 import { JotaroKujoComponent } from './jotaro-kujo/jotaro-kujo.component';
@@ -26,6 +27,12 @@ import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
 import { KrilinComponent } from './krilin/krilin.component';
 import {ZoroComponent} from "./zoro/zoro.component";
 
+=======
+import { MulanFidelineComponent } from './mulan-fideline/mulan-fideline.component';
+import { HeroesComponent } from './heroes/heroes.component';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
+import { MessagesComponent } from './messages/messages.component';
+>>>>>>> gaara
 
 @NgModule({
   imports: [
@@ -45,6 +52,7 @@ import {ZoroComponent} from "./zoro/zoro.component";
     AppComponent,
     HeroesComponent,
     PoisonJulyComponent,
+<<<<<<< HEAD
     AbdelComponent,
     JolyneKujoComponent,
     PhoenixWrightComponent,
@@ -61,6 +69,11 @@ import {ZoroComponent} from "./zoro/zoro.component";
     FivesComponent,
     BatmanComponent,
     GutsvidalComponent
+=======
+    MulanFidelineComponent,
+    MessagesComponent,
+    HeroSearchComponent,
+>>>>>>> gaara
   ],
   bootstrap: [AppComponent]
 })
