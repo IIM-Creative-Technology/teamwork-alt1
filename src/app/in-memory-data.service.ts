@@ -9,6 +9,23 @@ export class InMemoryDataService implements InMemoryDbService {
   createDb() {
     const heroes: Hero[] = [
       {
+
+        id: 11,
+        name: 'Poison July',
+        slug: 'poison-july',
+        superpower: 'Poison'
+      },
+      {
+        id: 3,
+        name: 'Cassian',
+        slug: 'cassian-alexis',
+        superpower: 'Darkness',
+        age: 18,
+        weakness: 'A hero who became a villain',
+        enemy: 'Psykers'
+      },
+      {
+
         id: 9,
         name: 'thor',
         slug: 'thor',
@@ -18,13 +35,7 @@ export class InMemoryDataService implements InMemoryDbService {
         enemy: 'méchants'
       },
       {
-        id: 11,
-        name: 'Poison July',
-        slug: 'poison-july',
-        superpower: 'Poison'
-      },
-      {
-        id: 20,
+        id: 10,
         name: 'Goku',
         slug: 'goku',
         superpower: 'Saiyan',
@@ -49,6 +60,15 @@ export class InMemoryDataService implements InMemoryDbService {
         age: 17,
         weakness: 'Distance',
         enemy: 'DIO',
+      },
+      {
+        id: 448,
+        age: 16,
+        name: 'Tsuyu Asui',
+        slug: 'tsuyu-asui',
+        enemy: "Les Vilains",
+        superpower: 'Grenouille',
+        weakness: "unknown",
       },
       {
         id: 98,
@@ -121,24 +141,6 @@ export class InMemoryDataService implements InMemoryDbService {
         slug: "catwoman-eole",
         superpower: "agile",
         weakness: "stereotypical weaknesses of cats",
-      },
-      {
-        id: 44,
-        name: 'Gon',
-        slug: 'gon',
-        superpower: 'Nen renforcement',
-        age: 28,
-        weakness: 'tro for',
-        enemy: 'Hisoka'
-      },
-      {
-        id: 9,
-        name: 'thor',
-        slug: 'thor',
-        superpower: 'marteau',
-        age: 35,
-        weakness: 'dos',
-        enemy: 'méchants'
       },
       {
         id: 2014,
