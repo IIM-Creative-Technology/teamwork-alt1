@@ -38,13 +38,21 @@ export class InMemoryDataService implements InMemoryDbService {
       {
         id: 98,
         age: 30,
-        enemy: 'Joker',
-        name: 'Batman',
-        slug: 'batman',
-        superpower: 'Richesse',
-        weakness: 'Humain',
+        enemy: "Joker",
+        name: "Batman",
+        slug: "batman",
+        superpower: "Richesse",
+        weakness: "Humain"
       },
-
+      {
+        id: 17,
+        age: 21,
+        enemy: "Kaido",
+        name: "Sanji",
+        slug: "sanji",
+        superpower: "Techniques de la jambe noire",
+        weakness: "Les Femmes"
+      },
       {
         id: 16,
         age: 19,

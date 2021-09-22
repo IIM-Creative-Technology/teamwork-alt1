@@ -18,9 +18,12 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { MessagesComponent } from './messages/messages.component';
 import { FivesComponent } from './fives/fives.component';
 import { BatmanComponent } from './batman/batman.component';
+
+import { SanjiComponent } from './sanji/sanji.component';
 import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
 import { KrilinComponent } from './krilin/krilin.component';
 import {ZoroComponent} from "./zoro/zoro.component";
+
 
 @NgModule({
   imports: [
@@ -44,6 +47,7 @@ import {ZoroComponent} from "./zoro/zoro.component";
     PhoenixWrightComponent,
     MessagesComponent,
     HeroSearchComponent,
+    SanjiComponent,
     KrilinComponent,
     JotaroKujoComponent,
     StitchComponent,
@@ -52,7 +56,6 @@ import {ZoroComponent} from "./zoro/zoro.component";
     BatmanComponent,
     ZoroComponent,
     FivesComponent,
-    BatmanComponent
   ],
   bootstrap: [AppComponent],
 })
