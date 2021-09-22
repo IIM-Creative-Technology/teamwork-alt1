@@ -1,0 +1,14 @@
+<div *ngIf="hero">
+  <h2>{{hero.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{hero.id}}</div>
+  <div><span>Name: </span>{{hero.name}}</div>
+  <div><span>Superpower: </span>{{hero.superpower}}</div>
+  <iframe src='https://gfycat.com/ifr/CluelessInfamousDevilfish' frameborder='0' scrolling='no' allowfullscreen width='640' height='428'></iframe>
+  <div><span>Age: </span>{{hero.age}}</div>
+  <div><span>Weakness: </span>{{hero.weakness}}</div>
+  <div><span>Enemy: </span>{{hero.enemy}}</div>
+
+
+  <button (click)="goBack()">go back</button>
+  <!--<button (click)="save()">save</button>-->
+</div>

@@ -11,6 +11,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
+import { AbdelComponent } from './abdel/abdel.component';
+import { PhoenixWrightComponent } from './phoenix-wright/phoenix-wright.component';
+import { JotaroKujoComponent } from './jotaro-kujo/jotaro-kujo.component';
 import { StitchComponent } from './stitch/stitch.component';
 import { GonComponent } from './Gon/gon.component';
 
@@ -23,6 +26,13 @@ import { MessagesComponent } from './messages/messages.component';
 import { FivesComponent } from './fives/fives.component';
 import { BatmanComponent } from './batman/batman.component';
 import { CatwomanEoleComponent } from './catwoman-eole/catwoman-eole.component';
+import { GutsvidalComponent } from './Guts-vidal/Guts-vidal.component';
+
+import { SanjiComponent } from './sanji/sanji.component';
+import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
+import { KrilinComponent } from './krilin/krilin.component';
+import {ZoroComponent} from "./zoro/zoro.component";
+
 
 @NgModule({
   imports: [
@@ -34,25 +44,36 @@ import { CatwomanEoleComponent } from './catwoman-eole/catwoman-eole.component';
     // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
     // and returns simulated server responses.
     // Remove it when a real server is ready to receive requests.
-    HttpClientInMemoryWebApiModule.forRoot(
-      InMemoryDataService, { dataEncapsulation: false }
-    )
+    HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, {
+      dataEncapsulation: false,
+    }),
   ],
   declarations: [
     AppComponent,
     HeroesComponent,
 
     PoisonJulyComponent,
+    AbdelComponent,
+    JolyneKujoComponent,
+    PhoenixWrightComponent,
+    MessagesComponent,
+    HeroSearchComponent,
+    SanjiComponent,
+    KrilinComponent,
+    JotaroKujoComponent,
     StitchComponent,
     GonComponent,ThorComponent,
     AlexisLuthorComponent,
 
     MessagesComponent,
     HeroSearchComponent,
+    BatmanComponent,
+    ZoroComponent,
     FivesComponent,
     BatmanComponent,
-    CatwomanEoleComponent
+    CatwomanEoleComponent,
+    GutsvidalComponent
   ],
-  bootstrap: [ AppComponent ]
+  bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
