@@ -23,3 +23,18 @@ button:disabled {
   color: #ccc;
   cursor: auto;
 }
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.img, .center {
+  text-align: center;
+}
+
+img {
+  width: 50%;
+}
