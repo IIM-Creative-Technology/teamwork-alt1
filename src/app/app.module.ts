@@ -42,7 +42,6 @@ import {GantaComponent} from './ganta/ganta.component';
     BatmanComponent,
     GantaComponent,
     FivesComponent,
-    BatmanComponent
   ],
   bootstrap: [ AppComponent ]
 })

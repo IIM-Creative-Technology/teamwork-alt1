@@ -16,7 +16,6 @@ const routes: Routes = [
   { path: '', redirectTo: '/heroes', pathMatch: 'full' },
   { path: 'heroes', component: HeroesComponent },
   { path: 'detail/poison-july', component: PoisonJulyComponent },
-  { path: 'detail/batman', component: BatmanComponent },
   { path: 'detail/ganta', component: GantaComponent },
   { path: 'detail/stitch', component: StitchComponent },
   { path: 'detail/fives', component: FivesComponent },
