@@ -1,4 +1,4 @@
-/* AlexisLuthorComponent's private CSS styles */
+/* PoisonJulyComponent's private CSS styles */
 label {
   color: #435960;
   font-weight: bold;
@@ -23,18 +23,24 @@ button:disabled {
   color: #ccc;
   cursor: auto;
 }
-
-.flex {
+.container{
   display: flex;
-  justify-content: space-around;
-}
-
-
-
-.img, .center {
+  flex-flow: row;
   text-align: center;
+  margin: auto;
+}
+.enemy{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 7%;
+}
+.button{
+  display: flex;
+  margin: auto;
+}
+#jotaroImg{
+  height: auto;
+  width: 61%;
 }
 
-img {
-  width: 50%;
-}
