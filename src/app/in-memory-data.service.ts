@@ -131,6 +131,16 @@ export class InMemoryDataService implements InMemoryDbService {
         weakness: 'Post-traumatic stress disorder',
         enemy: 'Kilgrave'
       },
+      {
+        id: 4,
+        age: 20,
+        enemy: "Naruto",
+        name: 'Gaara of the Sand',
+        slug: 'gaara-fideline',
+        superpower: 'Sand',
+        weakness: "Fire",
+
+      },
     ];
     return { heroes };
   }

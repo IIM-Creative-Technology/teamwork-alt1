@@ -9,13 +9,14 @@ import { InMemoryDataService } from './in-memory-data.service';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-<<<<<<< HEAD
-
-=======
 import { ThorComponent } from './thor/thor.component';
->>>>>>> 9ab7e10b90c9d4ccdaff9f2b05fcd5e3f974fe87
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
+<<<<<<< HEAD
+<<<<<<< HEAD
+import { AbdelComponent } from './abdel/abdel.component';
+=======
 import { GokuComponent } from './goku/goku.component';
+>>>>>>> 9ab7e10b90c9d4ccdaff9f2b05fcd5e3f974fe87
 import { PhoenixWrightComponent } from './phoenix-wright/phoenix-wright.component';
 import { JotaroKujoComponent } from './jotaro-kujo/jotaro-kujo.component';
 import { StitchComponent } from './stitch/stitch.component';
@@ -34,6 +35,12 @@ import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
 import { KrilinComponent } from './krilin/krilin.component';
 import { ZoroComponent } from "./zoro/zoro.component";
 
+=======
+import { MulanFidelineComponent } from './mulan-fideline/mulan-fideline.component';
+import { HeroesComponent } from './heroes/heroes.component';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
+import { MessagesComponent } from './messages/messages.component';
+>>>>>>> gaara
 
 @NgModule({
   imports: [
@@ -58,7 +65,12 @@ import { ZoroComponent } from "./zoro/zoro.component";
     ThorComponent,
 >>>>>>> 9ab7e10b90c9d4ccdaff9f2b05fcd5e3f974fe87
     PoisonJulyComponent,
+<<<<<<< HEAD
+<<<<<<< HEAD
+    AbdelComponent,
+=======
     GokuComponent,
+>>>>>>> 9ab7e10b90c9d4ccdaff9f2b05fcd5e3f974fe87
     JolyneKujoComponent,
     JessicaJonesComponent,
     PhoenixWrightComponent,
@@ -74,7 +86,16 @@ import { ZoroComponent } from "./zoro/zoro.component";
     ZoroComponent,
     FivesComponent,
     BatmanComponent,
+<<<<<<< HEAD
     GutsvidalComponent,
+=======
+    GutsvidalComponent
+=======
+    MulanFidelineComponent,
+    MessagesComponent,
+    HeroSearchComponent,
+>>>>>>> gaara
+>>>>>>> 6e1a55ece970e74ff54dc471fa0a41d12b3c16c4
   ],
   bootstrap: [AppComponent]
 })
