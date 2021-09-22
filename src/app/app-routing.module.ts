@@ -10,7 +10,7 @@ const routes: Routes = [
   { path: '', redirectTo: '/heroes', pathMatch: 'full' },
   { path: 'heroes', component: HeroesComponent },
   { path: 'detail/poison-july', component: PoisonJulyComponent },
-  { path: 'detail/mulan-fideline', component: MulanFidelineComponent }
+  { path: 'detail/gaara-fideline', component: MulanFidelineComponent }
 ];
 
 @NgModule({

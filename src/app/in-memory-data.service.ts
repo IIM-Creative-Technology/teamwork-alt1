@@ -10,12 +10,12 @@ export class InMemoryDataService implements InMemoryDbService {
     const heroes : Hero[] = [
       {
         id: 4,
-        name: 'Mulan Fideline',
-        slug: 'mulan-fideline',
-        superpower: 'Le Qi',
+        name: 'Gaara of the Sand',
+        slug: 'gaara-fideline',
+        superpower: 'Sand',
         weakness: "Fire",
         age: 20,
-        ennemy: "Batman"
+        ennemy: "Naruto"
       },
     ];
     return {heroes};
