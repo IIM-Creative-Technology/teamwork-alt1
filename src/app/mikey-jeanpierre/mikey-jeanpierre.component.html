@@ -1,0 +1,77 @@
+<div *ngIf="hero" class="body">
+  <div id="card">
+    <div id="card-title">
+      <h1>{{hero.name | uppercase}} Details</h1>
+    </div>
+    <div id="card-id">
+      <div id="card-number">
+        <p class="cardtitle">Numéro d'identifiant :</p>
+        <p>{{hero.id}}</p>
+      </div>
+        <p class="cardtitle">Provenance : Tokyo Revengers</p>
+    </div>
+    <div id="card-information">
+      <div id="card-photo"></div>
+      <div id="card-text">
+      <div id="card-name">
+        <div class="card-box"></div>
+        <p><span class="cardtitle"> Name : </span> {{hero.name}} </p>
+
+      </div>
+      <div id="card-detail">
+        <div class="card-box">
+          <p><span class="cardtitle"> Sexe : </span> M </p>
+          </div>
+        <div class="card-box">
+          <p><span class="cardtitle"> Superpower : </span> {{hero.superpower}} </p>
+        </div>
+        <div class="card-box">
+          <p><span class="cardtitle"> Ennemy : </span> Himself </p>
+        </div>
+        <div class="card-box">
+          <p><span class="cardtitle"> Weakness : </span> None </p>
+        </div>
+      </div>
+      <div id="card-sign">
+        <p class="cardtitle">Signature du titulaire :</p>
+        <div id="cardsign"> {{hero.slug}}</div>
+      </div> 
+      </div>
+    </div>
+    <div id="card-code">
+      <p>
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   <<<<<<<<<<<<<<<<<<<<<<<<
+      </p>
+    </div>
+  </div>
+
+  <div class="b-gallery">
+    <div class="gallery">
+      <img src="https://64.media.tumblr.com/1d0fcea87ba5f22350c1eb33e5e6e2ad/287e89feeae23c00-41/s1280x1920/d71303aeb81b8c4d219fe2dd36e42e4637dd590c.jpg" alt="mikey"/>
+      <div class="desc">Cute Mikey</div>
+    </div>
+    
+    <div class="gallery">
+      <img src="https://64.media.tumblr.com/cbccd45c10dfcb1d2bedc5d7b1a370ab/287e89feeae23c00-0b/s1280x1920/084d23ba2c47c05c4b2f670d0b8ac5decb539d3d.jpg" alt="mikey"/>
+      <div class="desc">Angry Mikey</div>
+    </div>
+    
+    <div class="gallery">
+      <img src="https://64.media.tumblr.com/fe38b8447c831ccee906414a21cd8233/287e89feeae23c00-3e/s1280x1920/5bb3ad5322a407e0ec81343d39ee9c245a931bb9.jpg" alt="mikey"/>                                                       
+      <div class="desc">Handsome Mikey</div>
+    </div>
+    
+    <div class="gallery">
+      <img src="https://64.media.tumblr.com/77248cd60117f14771c86049a915b3e6/287e89feeae23c00-35/s1280x1920/1b91cc18208deeb770946fceea5f374ae84945e9.jpg" alt="mikey"/>
+      <div class="desc">Bloody Mikey</div>
+    </div>
+
+    <div class="gallery">
+      <img src="https://64.media.tumblr.com/8121e5679edd67f62368fc4063c44afa/287e89feeae23c00-bd/s1280x1920/679c4af606d01acb61ba04cc0417da1190670ea2.jpg" alt="mikey"/>
+      <div class="desc">Looking down on you Mikey</div>
+    </div>
+  
+  </div>
+
+  <button (click)="goBack()">go back</button>
+</div>
