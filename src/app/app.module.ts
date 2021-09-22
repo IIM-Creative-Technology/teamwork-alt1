@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
+import { AbdelComponent } from './abdel/abdel.component';
 import { PhoenixWrightComponent } from './phoenix-wright/phoenix-wright.component';
 import { JotaroKujoComponent } from './jotaro-kujo/jotaro-kujo.component';
 import { StitchComponent } from './stitch/stitch.component';
@@ -43,6 +44,7 @@ import {ZoroComponent} from "./zoro/zoro.component";
     AppComponent,
     HeroesComponent,
     PoisonJulyComponent,
+    AbdelComponent,
     JolyneKujoComponent,
     PhoenixWrightComponent,
     MessagesComponent,
@@ -57,6 +59,6 @@ import {ZoroComponent} from "./zoro/zoro.component";
     ZoroComponent,
     FivesComponent,
   ],
-  bootstrap: [AppComponent],
+  bootstrap: [AppComponent]
 })
 export class AppModule {}

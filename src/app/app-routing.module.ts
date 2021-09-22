@@ -8,6 +8,7 @@ import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
 import { PhoenixWrightComponent } from './phoenix-wright/phoenix-wright.component';
 import { JotaroKujoComponent } from './jotaro-kujo/jotaro-kujo.component';
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
+import { AbdelComponent } from './abdel/abdel.component';
 
 import { SanjiComponent } from './sanji/sanji.component';
 
@@ -20,6 +21,7 @@ const routes: Routes = [
   { path: '', redirectTo: '/heroes', pathMatch: 'full' },
   { path: 'heroes', component: HeroesComponent },
   { path: 'detail/poison-july', component: PoisonJulyComponent },
+  { path: 'detail/abdel', component: AbdelComponent }
   { path: "detail/sanji", component:SanjiComponent },
   { path: 'detail/jolyne-kujo', component: JolyneKujoComponent },
   { path: 'detail/batman', component: BatmanComponent },
@@ -33,7 +35,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [ RouterModule.forRoot(routes) ],
-  exports: [ RouterModule ]
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }
