@@ -14,6 +14,7 @@ import { StitchComponent } from './stitch/stitch.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { MessagesComponent } from './messages/messages.component';
+import { FivesComponent } from './fives/fives.component';
 import { BatmanComponent } from './batman/batman.component';
 
 @NgModule({
@@ -37,6 +38,7 @@ import { BatmanComponent } from './batman/batman.component';
     StitchComponent,
     MessagesComponent,
     HeroSearchComponent,
+    FivesComponent,
     BatmanComponent
   ],
   bootstrap: [ AppComponent ]

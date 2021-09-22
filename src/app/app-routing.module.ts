@@ -5,6 +5,7 @@ import { BatmanComponent } from './batman/batman.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
 import { StitchComponent } from './stitch/stitch.component';
+import { FivesComponent } from './fives/fives.component';
 
 
 const routes: Routes = [
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'heroes', component: HeroesComponent },
   { path: 'detail/poison-july', component: PoisonJulyComponent },
   { path: 'detail/stitch', component: StitchComponent },
+  { path: 'detail/fives', component: FivesComponent },
   { path: "detail/batman", component:BatmanComponent }
 ];
 
