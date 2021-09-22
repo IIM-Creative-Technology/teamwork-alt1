@@ -1,15 +1,23 @@
-<div *ngIf="hero" class="container">
-  <h2>{{hero.name | uppercase}} Details</h2>
-  <div><span>id: </span>{{hero.id}}</div>
-  <div><span>age: </span>{{hero.age}}</div>
-  <div><span>name: </span>{{hero.name}}</div>
-  <div><span>superpower: </span>{{hero.superpower}}</div>
-  <div><span>weakness: </span>{{hero.weakness}}</div>
-  <div><span>enemy: </span>{{hero.enemy}}</div>
-  <div>
-     <img src="../../assets/img/Jotaro_Kujo2.jpg" alt="Jotaro Kujo"/>
+<div *ngIf="hero">
+  <div class="container">
+    <div class="hero">
+      <h2>{{hero.name | uppercase}} Details</h2>
+      <div><span>id: </span>{{hero.id}}</div>
+      <div><span>age: </span>{{hero.age}}</div>
+      <div><span>name: </span>{{hero.name}}</div>
+      <div><span>superpower: </span>{{hero.superpower}}</div>
+      <div>
+        <img src="../../assets/img/Jotaro_Kujo2.jpg" alt="Jotaro Kujo"/>
+      </div>
+    </div>
+    <div class="enemy">
+      <div><span>weakness: </span>{{hero.weakness}}</div>
+      <div><span>enemy: </span>{{hero.enemy}}</div>
+      <div>
+        <img src="../../assets/img/dio.png" alt="Jotaro Kujo"/>
+      </div>
+    </div>
   </div>
-
 
   <button (click)="goBack()">go back</button>
   <!--<button (click)="save()">save</button>-->
