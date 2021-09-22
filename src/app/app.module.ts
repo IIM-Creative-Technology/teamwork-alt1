@@ -17,7 +17,6 @@ import { GonComponent } from './Gon/gon.component';
 import { ThorComponent } from './thor/thor.component';
 import { AlexisLuthorComponent } from './alexis-luthor/alexis-luthor.component';
 
-import { AbdelComponent } from './abdel/abdel.component';
 import { GokuComponent } from './goku/goku.component';
 import { PhoenixWrightComponent } from './phoenix-wright/phoenix-wright.component';
 import { JotaroKujoComponent } from './jotaro-kujo/jotaro-kujo.component';
@@ -26,7 +25,6 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { MessagesComponent } from './messages/messages.component';
 import { FivesComponent } from './fives/fives.component';
-import { BatmanComponent } from './batman/batman.component';
 import { GutsvidalComponent } from './Guts-vidal/Guts-vidal.component';
 import { SanjiComponent } from './sanji/sanji.component';
 import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
@@ -58,7 +56,6 @@ import { ZoroComponent } from "./zoro/zoro.component";
 
     AlexisLuthorComponent,
 
-    AbdelComponent,
     ThorComponent,
     GokuComponent,
     JolyneKujoComponent,
@@ -69,7 +66,6 @@ import { ZoroComponent } from "./zoro/zoro.component";
     StitchComponent,
     MessagesComponent,
     HeroSearchComponent,
-    BatmanComponent,
     ZoroComponent,
     FivesComponent,
     GutsvidalComponent
