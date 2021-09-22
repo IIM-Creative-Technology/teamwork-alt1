@@ -1,7 +1,20 @@
 /* JUJUComponent's private CSS styles */
 h2{
   color: palevioletred;
-  
+  text-align: center;
+  background-color: rgb(75, 8, 138);
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 710px;
+}
+.card{
+  background-color: pink;
+  width: 71%;
+  border-radius: 30px;
+}
+span{
+  color: rgb(75, 8, 138);
 }
 label {
   color: #435960;
@@ -14,17 +27,23 @@ input {
 button {
   margin-top: 20px;
   margin-right: .5rem;
-  background-color: #eee;
+  background-color: palevioletred;
   padding: 1rem;
   border-radius: 4px;
   font-size: 1rem;
 }
 button:hover {
-  background-color: #cfd8dc;
+  background-color: #ac42a1;
 }
 button:disabled {
-  background-color: #eee;
+  background-color: palevioletred;
   color: #ccc;
   cursor: auto;
 }
 
+img{
+  margin-top: 30px;
+  height: 50vh;
+  border-radius: 30px;
+  margin-left: 4px;
+}
