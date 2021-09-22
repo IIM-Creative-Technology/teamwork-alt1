@@ -15,13 +15,13 @@ export class InMemoryDataService implements InMemoryDbService {
         superpower: 'Poison'
       },
       {
-        id: 10,
+        id: 20,
         name: 'Goku',
-        slug: 'abdel',
+        slug: 'goku',
         superpower: 'Saiyan',
-        age: '10',
+        age: '38',
         weakness: 'Kind',
-        ennemy: 'Frieza, Broly, Jiren, Cell, Janemba, ....... '
+        enemy: 'Frieza, Broly, Jiren, Cell, Janemba, ....... '
       }
     ];
     return { heroes };
