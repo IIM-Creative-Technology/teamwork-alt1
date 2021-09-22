@@ -21,7 +21,7 @@ const routes: Routes = [
   { path: '', redirectTo: '/heroes', pathMatch: 'full' },
   { path: 'heroes', component: HeroesComponent },
   { path: 'detail/poison-july', component: PoisonJulyComponent },
-  { path: 'detail/goku', component: GokuComponent }
+  { path: 'detail/goku', component: GokuComponent },
   { path: "detail/sanji", component: SanjiComponent },
   { path: 'detail/jolyne-kujo', component: JolyneKujoComponent },
   { path: 'detail/batman', component: BatmanComponent },

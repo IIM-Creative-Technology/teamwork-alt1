@@ -20,9 +20,11 @@ export class InMemoryDataService implements InMemoryDbService {
         slug: 'goku',
         superpower: 'Saiyan',
         age: '38',
-        weakness: 'Kind',
+        weakness: 'Gentillesse',
         enemy: 'Frieza, Broly, Jiren, Cell, Janemba, ....... '
-      }
+      },
+      {
+        id: 10,
         superpower: 'Poison',
         weakness: 'Fire',
         age: 20,
@@ -90,7 +92,7 @@ export class InMemoryDataService implements InMemoryDbService {
         weakness: 'No weakness'
       },
       {
-        id:626,
+        id: 626,
         age: 20,
         enemy: 'Bonnie',
         name: 'Stitch',
