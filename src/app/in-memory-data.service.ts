@@ -21,7 +21,7 @@ export class InMemoryDataService implements InMemoryDbService {
         superpower: 'Star Platinium',
         age: 17,
         weakness: 'The world',
-        ennemy: 'DIO'
+        enemy: 'DIO'
       }
     ];
     return {heroes};
