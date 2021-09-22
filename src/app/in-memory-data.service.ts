@@ -20,7 +20,7 @@ export class InMemoryDataService implements InMemoryDbService {
         slug : 'jotaro-kujo',
         superpower: 'Star Platinium',
         age: 17,
-        weakness: 'The world',
+        weakness: 'Distance',
         enemy: 'DIO',
       },
       {

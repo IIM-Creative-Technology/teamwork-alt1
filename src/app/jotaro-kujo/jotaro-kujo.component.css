@@ -29,3 +29,18 @@ button:disabled {
   text-align: center;
   margin: auto;
 }
+.enemy{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 7%;
+}
+.button{
+  display: flex;
+  margin: auto;
+}
+#jotaroImg{
+  height: auto;
+  width: 61%;
+}
+
