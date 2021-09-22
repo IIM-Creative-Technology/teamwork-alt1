@@ -1,0 +1,49 @@
+/* TsuyuAsuiComponent's private CSS styles */
+label {
+  color: #435960;
+  font-weight: bold;
+}
+input {
+  font-size: 1em;
+  padding: .5rem;
+}
+button {
+  margin-top: 20px;
+  margin-right: .5rem;
+  background-color: #eee;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #eee;
+  color: #ccc;
+  cursor: auto;
+}
+
+.begin{
+  background-color: #435960;
+  height: 250px;
+  justify-content: space-around;
+}
+
+.begin h2{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.tenue{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(67,89,96,0.7);
+}
+
+img{
+  display: block;
+}
