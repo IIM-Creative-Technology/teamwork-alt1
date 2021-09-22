@@ -215,6 +215,15 @@ export class InMemoryDataService implements InMemoryDbService {
         superpower: 'Sand',
         weakness: "Fire",
       },
+      {
+        id: 2,
+        name: 'Jessica Jones',
+        slug: 'jessica-jones',
+        superpower: 'Superhuman strength',
+        age: 39,
+        weakness: 'Post-traumatic stress disorder',
+        enemy: 'Kilgrave'
+      },
     ];
     return { heroes };
   }

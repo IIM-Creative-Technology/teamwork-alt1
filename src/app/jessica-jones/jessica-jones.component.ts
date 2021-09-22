@@ -2,28 +2,23 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 
-
 import { Hero } from '../hero';
 import { HeroService } from '../hero.service';
 
-
 @Component({
   selector: 'app-hero-detail',
-  templateUrl: './fives.component.html',
-  styleUrls: [ './fives.component.css' ]
+  templateUrl: './jessica-jones.component.html',
+  styleUrls: [ './jessica-jones.component.css' ]
 })
-export class FivesComponent implements OnInit {
-  id: number = 55555;
+export class JessicaJonesComponent implements OnInit {
+  id: number = 2;
   hero: Hero | undefined;
-
 
   constructor(
     private route: ActivatedRoute,
     private heroService: HeroService,
     private location: Location
   ) {}
-
-
 
   ngOnInit(): void {
     this.getHero();
@@ -37,8 +32,6 @@ export class FivesComponent implements OnInit {
   goBack(): void {
     this.location.back();
   }
-
-
 
   /*save(): void {
     if (this.hero) {
