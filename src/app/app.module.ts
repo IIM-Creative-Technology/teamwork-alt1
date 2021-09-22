@@ -24,14 +24,13 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { MessagesComponent } from './messages/messages.component';
 import { FivesComponent } from './fives/fives.component';
-import { BatmanComponent } from './batman/batman.component';
 import { CatwomanEoleComponent } from './catwoman-eole/catwoman-eole.component';
 import { GutsvidalComponent } from './Guts-vidal/Guts-vidal.component';
 import { SanjiComponent } from './sanji/sanji.component';
 import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
 import { KrilinComponent } from './krilin/krilin.component';
 import { ZoroComponent } from "./zoro/zoro.component";
-
+import { MulanFidelineComponent } from './mulan-fideline/mulan-fideline.component';
 
 @NgModule({
   imports: [
@@ -52,7 +51,9 @@ import { ZoroComponent } from "./zoro/zoro.component";
     HeroesComponent,
     ThorComponent,
     PoisonJulyComponent,
+
     GokuComponent,
+
     JolyneKujoComponent,
     PhoenixWrightComponent,
     MessagesComponent,
@@ -65,9 +66,11 @@ import { ZoroComponent } from "./zoro/zoro.component";
     AlexisLuthorComponent,
     ZoroComponent,
     FivesComponent,
-    BatmanComponent,
     CatwomanEoleComponent,
-    GutsvidalComponent
+    GutsvidalComponent,
+    MulanFidelineComponent,
+    MessagesComponent,
+    HeroSearchComponent,
   ],
   bootstrap: [AppComponent]
 })

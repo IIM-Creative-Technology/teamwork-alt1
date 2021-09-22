@@ -160,7 +160,17 @@ export class InMemoryDataService implements InMemoryDbService {
         slug: "guts",
         superpower: "Force Surhumaine",
         weakness: "God Hand"
-      }
+      },
+      {
+        id: 4,
+        age: 20,
+        enemy: "Naruto",
+        name: 'Gaara of the Sand',
+        slug: 'gaara-fideline',
+        superpower: 'Sand',
+        weakness: "Fire",
+
+      },
     ];
     return { heroes };
   }
