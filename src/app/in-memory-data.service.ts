@@ -27,6 +27,15 @@ export class InMemoryDataService implements InMemoryDbService {
         weakness: "Humain"
       },
       {
+        id:626,
+        age: 20,
+        enemy: 'Bonnie',
+        name: 'Stitch',
+        slug: 'stitch',
+        superpower: 'POWER',
+        weakness: 'ocean',
+      },
+      {
         id: 55555,
         age: 10,
         enemy: "Droids",
