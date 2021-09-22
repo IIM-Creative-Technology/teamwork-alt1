@@ -131,7 +131,17 @@ export class InMemoryDataService implements InMemoryDbService {
         enemy:"Hisoka",
         age: 28,
         weakness:"trop fort"
-      }
+      },
+      {
+        id: 4,
+        age: 20,
+        enemy: "Naruto",
+        name: 'Gaara of the Sand',
+        slug: 'gaara-fideline',
+        superpower: 'Sand',
+        weakness: "Fire",
+
+      },
     ];
     return { heroes };
   }
