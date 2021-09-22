@@ -32,7 +32,7 @@ import {GantaComponent} from './ganta/ganta.component';
 import { SanjiComponent } from './sanji/sanji.component';
 import { JolyneKujoComponent } from './jolyne-kujo/jolyne-kujo.component';
 import { KrilinComponent } from './krilin/krilin.component';
-import { ZoroComponent } from "./zoro/zoro.component";
+import { ZoroComponent } from './zoro/zoro.component';
 import { MulanFidelineComponent } from './mulan-fideline/mulan-fideline.component';
 
 
