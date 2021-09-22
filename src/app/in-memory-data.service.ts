@@ -104,7 +104,7 @@ export class InMemoryDataService implements InMemoryDbService {
         enemy: 'Joker',
         name: 'Batman',
         slug: 'batman',
-        superpower: 'Richesse',
+        superpower: 'Richesse / Combat',
         weakness: 'Humain'
       },
       {
