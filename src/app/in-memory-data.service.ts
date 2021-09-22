@@ -7,18 +7,51 @@ import { Hero } from './hero';
 })
 export class InMemoryDataService implements InMemoryDbService {
   createDb() {
-    const heroes = [
+    const heroes : Hero[] = [
       {
         id: 11,
         name: 'Poison July',
         slug: 'poison-july',
-        superpower: 'Poison'
+        superpower: 'Poison',
+        weakness: "Fire",
+        age: 20,
+        enemy: "Batman"
       },
       {
         id: 448,
+        age: 16,
         name: 'Tsuyu Asui',
         slug: 'tsuyu-asui',
-        superpower: 'Grenouille'
+        enemy: "Les Vilains",
+        superpower: 'Grenouille',
+        weakness: "unknown",
+      },
+      {
+        id: 98,
+        age: 30,
+        enemy: "Joker",
+        name: "Batman",
+        slug: "batman",
+        superpower: "Richesse",
+        weakness: "Humain"
+      },
+      {
+        id:626,
+        age: 20,
+        enemy: 'Bonnie',
+        name: 'Stitch',
+        slug: 'stitch',
+        superpower: 'POWER',
+        weakness: 'ocean',
+      },
+      {
+        id: 55555,
+        age: 22,
+        enemy: "Droids",
+        name: "Fives",
+        slug: "fives",
+        superpower: "Sharp shooter",
+        weakness: "order 66"
       }
     ];
     return {heroes};

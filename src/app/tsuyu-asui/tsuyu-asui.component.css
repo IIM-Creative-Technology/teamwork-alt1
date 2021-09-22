@@ -23,3 +23,27 @@ button:disabled {
   color: #ccc;
   cursor: auto;
 }
+
+.begin{
+  background-color: #435960;
+  height: 250px;
+  justify-content: space-around;
+}
+
+.begin h2{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.tenue{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(67,89,96,0.7);
+}
+
+img{
+  display: block;
+}
