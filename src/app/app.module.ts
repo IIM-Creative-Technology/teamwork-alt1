@@ -11,9 +11,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
 import { PhoenixWrightComponent } from './phoenix-wright/phoenix-wright.component';
+import { StitchComponent } from './stitch/stitch.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { MessagesComponent } from './messages/messages.component';
+import { FivesComponent } from './fives/fives.component';
+import { BatmanComponent } from './batman/batman.component';
 
 @NgModule({
   imports: [
@@ -36,6 +39,11 @@ import { MessagesComponent } from './messages/messages.component';
     PhoenixWrightComponent,
     MessagesComponent,
     HeroSearchComponent,
+    StitchComponent,
+    MessagesComponent,
+    HeroSearchComponent,
+    FivesComponent,
+    BatmanComponent
   ],
   bootstrap: [AppComponent],
 })
