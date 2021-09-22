@@ -9,9 +9,12 @@ import { PhoenixWrightComponent } from './phoenix-wright/phoenix-wright.componen
 import { JotaroKujoComponent } from './jotaro-kujo/jotaro-kujo.component';
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
 import {GantaComponent} from './ganta/ganta.component';
+import { AbdelComponent } from './abdel/abdel.component';
+
 import { SanjiComponent } from './sanji/sanji.component';
 import { StitchComponent } from './stitch/stitch.component';
 import { FivesComponent } from './fives/fives.component';
+import { GutsvidalComponent } from './Guts-vidal/Guts-vidal.component';
 
 
 
@@ -20,8 +23,7 @@ const routes: Routes = [
   { path: 'heroes', component: HeroesComponent },
   { path: 'detail/poison-july', component: PoisonJulyComponent },
   { path: 'detail/ganta', component: GantaComponent },
-  { path: 'detail/stitch', component: StitchComponent },
-  { path: 'detail/fives', component: FivesComponent },
+  { path: 'detail/abdel', component: AbdelComponent },
   { path: "detail/sanji", component:SanjiComponent },
   { path: 'detail/jolyne-kujo', component: JolyneKujoComponent },
   { path: 'detail/batman', component: BatmanComponent },
@@ -31,11 +33,11 @@ const routes: Routes = [
   { path: 'detail/jotaro-kujo', component: JotaroKujoComponent },
   { path: 'detail/stitch', component: StitchComponent },
   { path: 'detail/fives', component: FivesComponent },
-
+  { path: "detail/guts", component:GutsvidalComponent }
 ];
 
 @NgModule({
-  imports: [ RouterModule.forRoot(routes) ],
-  exports: [ RouterModule ]
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }
