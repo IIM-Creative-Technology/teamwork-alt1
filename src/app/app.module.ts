@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
+import { StitchComponent } from './stitch/stitch.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { MessagesComponent } from './messages/messages.component';
@@ -34,6 +35,7 @@ import { BatmanComponent } from './batman/batman.component';
     AppComponent,
     HeroesComponent,
     PoisonJulyComponent,
+    StitchComponent,
     MessagesComponent,
     HeroSearchComponent,
     FivesComponent,
