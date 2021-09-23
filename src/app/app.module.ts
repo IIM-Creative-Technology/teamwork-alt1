@@ -7,6 +7,7 @@ import { InMemoryDataService } from './in-memory-data.service';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PoisonJulyComponent } from './poison-july/poison-july.component';
+import { JujuComponent } from './juliette-starling/juju.component';
 import { MikeyComponent } from './mikey-jeanpierre/mikey-jeanpierre.component';
 import { TsuyuAsuiComponent } from './tsuyu-asui/tsuyu-asui.component';
 
@@ -46,14 +47,15 @@ import { BatmanComponent } from './batman/batman.component';
     // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
     // and returns simulated server responses.
     // Remove it when a real server is ready to receive requests.
-    HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, {
-      dataEncapsulation: false,
-    }),
+    HttpClientInMemoryWebApiModule.forRoot(
+      InMemoryDataService, { dataEncapsulation: false }
+    )
   ],
   declarations: [
     AppComponent,
     HeroesComponent,
     PoisonJulyComponent,
+    JujuComponent,
     MikeyComponent,
     TsuyuAsuiComponent,
     GokuComponent,
@@ -80,6 +82,6 @@ import { BatmanComponent } from './batman/batman.component';
     BatmanComponent
 
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [ AppComponent ]
 })
 export class AppModule { }
