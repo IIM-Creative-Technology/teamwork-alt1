@@ -22,7 +22,6 @@ body {
   padding: .5rem;
   max-width: 1000px;
   margin: auto;
-  margin: 0;
 }
 
 @media (min-width: 600px) {
