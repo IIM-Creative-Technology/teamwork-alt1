@@ -19,17 +19,16 @@ h3 {
 }
 
 body {
-  /* padding: .5rem;
+  padding: .5rem;
   max-width: 1000px;
-  margin: auto; */
-  margin: 0;
+  margin: auto;
 }
 
-/* @media (min-width: 600px) {
+@media (min-width: 600px) {
   body {
     padding: 2rem;
   }
-} */
+}
 body,
 input[text] {
   color: #333;
