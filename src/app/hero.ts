@@ -3,7 +3,7 @@ export interface Hero {
   name: string;
   slug: string;
   superpower: string;
-  age: number;
-  weakness:  string;
-  enemy: string
+  age?: number;
+  weakness?: string;
+  enemy?: string;
 }
