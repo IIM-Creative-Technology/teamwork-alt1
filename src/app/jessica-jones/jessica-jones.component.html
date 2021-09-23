@@ -1,0 +1,27 @@
+<div *ngIf="hero">
+  <button (click)="goBack()">go back</button>
+  <!-- <button (click)="save()">save</button> -->
+
+
+  <div class="main">
+
+
+    <!-- Perso Informations -->
+    <div class="perso_informations">
+
+      <!-- Perso image -->
+      <div class="perso_img"></div>
+
+      <!-- Perso details -->
+      <div class="perso_details">
+        <h1>{{hero.name}}</h1>
+        <p><span>Age</span>{{hero.age}}</p>
+        <p><span>Superpower</span>{{hero.superpower}}</p>
+        <p><span>Weakness</span>{{hero.weakness}}</p>
+        <p><span>Enemy</span>{{hero.enemy}}</p>
+      </div>
+    </div>
+  </div>
+
+
+</div>
